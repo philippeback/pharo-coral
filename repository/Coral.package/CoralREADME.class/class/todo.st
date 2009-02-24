@@ -1,6 +1,7 @@
 initialization
 todo
 	^ '"TO DO ITEMS
+- clean up dead code
 - support for #! notation
 - installer for #! script runner
 - passing arguments to scripts
