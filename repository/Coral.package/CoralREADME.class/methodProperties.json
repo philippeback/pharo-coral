@@ -1,7 +1,8 @@
 {
 	"class" : {
-		"info" : "on 2/24/2009 15:20",
-		"initialize" : "on 2/24/2009 15:11",
-		"readMe" : "on 2/24/2009 14:55" },
+		"initialize" : "on 2/24/2009 16:34",
+		"openWorkspaceLabeled:withContents:" : "on 2/24/2009 16:33",
+		"readMe" : "on 2/24/2009 16:43",
+		"todo" : "on 2/24/2009 16:42" },
 	"instance" : {
 		 } }

@@ -1,6 +1,6 @@
 comment
 readMe
-	^ 'INSTRUCTIONS (in CoralREADME class>>readMe)
+	^ '"INSTRUCTIONS
 
 - Save this image as ''coral.image''
 
@@ -23,5 +23,5 @@ vm=''/Applications/Squeak/Squeak 3.8.21beta1U.app/Contents/MacOS/Squeak VM Opt''
 
 Now you should be able to run the coral script from the command line as follows:
 
-./coral.sh hello.st
+./coral.sh hello.st"
 '
