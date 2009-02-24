@@ -1,1 +1,1 @@
-(name 'Coral-on.1' message 'Initial import of Saphir classes.' id 'a28032b2-20b3-4cf7-a83d-38f4b87c0091' date '24 February 2009' time '1:27:03 pm' author 'on' ancestors () stepChildren ())
+(name 'Coral-on.2' message 'empty log message' id 'b1524d20-8635-4bc3-8c45-69f0d98111df' date '24 February 2009' time '2:01:34 pm' author 'on' ancestors ((name 'Coral-on.1' message 'Initial import of Saphir classes.' id 'a28032b2-20b3-4cf7-a83d-38f4b87c0091' date '24 February 2009' time '1:27:03 pm' author 'on' ancestors () stepChildren ())) stepChildren ())
