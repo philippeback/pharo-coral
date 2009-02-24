@@ -1,4 +1,4 @@
-as yet unclassified
+comment
 readMe
 	^ 'INSTRUCTIONS (in CoralREADME class>>readMe)
 

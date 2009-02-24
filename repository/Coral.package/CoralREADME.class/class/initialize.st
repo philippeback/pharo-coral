@@ -1,7 +1,4 @@
-as yet unclassified
+initialization
 initialize
-	| info |
 	super initialize.
-	info := SHWorkspace new.
-	info contents: self readMe.
-	info openLabel: 'README'
+	self info.
