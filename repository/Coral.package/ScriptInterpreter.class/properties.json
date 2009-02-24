@@ -1,0 +1,15 @@
+{
+	"category" : "Coral",
+	"classinstvars" : [
+		"fileName" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"nodes",
+		"results" ],
+	"name" : "ScriptInterpreter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

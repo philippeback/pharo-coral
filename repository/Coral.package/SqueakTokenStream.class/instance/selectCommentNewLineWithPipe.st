@@ -1,0 +1,4 @@
+accessing
+selectCommentNewLineWithPipe
+
+	^SelectSqueakTokenStream selectCommentNewLineWithPipeOn:  self

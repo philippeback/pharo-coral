@@ -1,0 +1,4 @@
+testing
+notEaten
+	
+	^eat not

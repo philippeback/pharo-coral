@@ -1,0 +1,4 @@
+runing
+fullName
+	
+	^fileName

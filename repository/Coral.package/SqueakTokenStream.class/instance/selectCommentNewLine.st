@@ -1,0 +1,4 @@
+accessing
+selectCommentNewLine
+
+	^SelectSqueakTokenStream selectCommentNewLineOn: self

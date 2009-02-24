@@ -1,0 +1,3 @@
+testing
+onUnix
+	^FileDirectory pathNameDelimiter = $/

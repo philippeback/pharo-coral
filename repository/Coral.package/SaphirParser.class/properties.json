@@ -1,0 +1,14 @@
+{
+	"category" : "Coral",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"classParseIn" ],
+	"name" : "SaphirParser",
+	"pools" : [
+		 ],
+	"super" : "RBParser",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "Coral",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"doIt",
+		"block" ],
+	"name" : "RBDoitScript",
+	"pools" : [
+		 ],
+	"super" : "RBProgramNode",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+testing
+isWhitespace
+
+	^id == #whitespace

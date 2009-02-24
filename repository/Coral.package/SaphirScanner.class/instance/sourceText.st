@@ -1,0 +1,3 @@
+accessing
+sourceText
+	^stream contents

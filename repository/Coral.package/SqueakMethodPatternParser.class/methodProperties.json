@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"parserDefinitionComment" : "ms 11/19/2006 17:05",
+		"scannerClass" : "ms 11/19/2006 17:05",
+		"startingStateForMethod" : "ms 11/19/2006 17:05",
+		"startingStateForMethodPattern" : "ms 11/19/2006 17:05" },
+	"instance" : {
+		"method:" : "ms 11/19/2006 17:14",
+		"reduceTable" : "ms 11/21/2006 08:27",
+		"transitionTable" : "ms 11/19/2006 17:05" } }

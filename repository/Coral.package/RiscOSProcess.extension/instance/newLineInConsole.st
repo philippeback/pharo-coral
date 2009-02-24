@@ -1,0 +1,4 @@
+*coral
+newLineInConsole
+	
+	^String lf

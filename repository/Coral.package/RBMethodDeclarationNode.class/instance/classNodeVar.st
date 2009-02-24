@@ -1,0 +1,4 @@
+accessing
+classNodeVar
+
+	^classNodeVar

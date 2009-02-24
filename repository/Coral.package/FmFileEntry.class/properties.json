@@ -1,0 +1,21 @@
+{
+	"category" : "Coral",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"drive",
+		"pathComponents",
+		"parent",
+		"name",
+		"fileSize",
+		"creationTime",
+		"modificationTime",
+		"options" ],
+	"name" : "FmFileEntry",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Coral",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"children" ],
+	"name" : "FmDirectoryEntry",
+	"pools" : [
+		 ],
+	"super" : "FmFileEntry",
+	"type" : "normal" }

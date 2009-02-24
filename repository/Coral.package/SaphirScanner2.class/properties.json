@@ -1,0 +1,14 @@
+{
+	"category" : "Coral",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SaphirScanner2",
+	"pools" : [
+		 ],
+	"super" : "SqueakScanner",
+	"type" : "normal" }

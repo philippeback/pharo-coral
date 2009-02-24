@@ -1,0 +1,3 @@
+generated-starting states
+startingStateForSequenceScript
+	^1

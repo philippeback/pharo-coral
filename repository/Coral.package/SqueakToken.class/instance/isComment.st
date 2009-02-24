@@ -1,0 +1,4 @@
+testing
+isComment
+
+	^id == #comment

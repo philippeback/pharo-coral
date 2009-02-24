@@ -1,0 +1,15 @@
+{
+	"category" : "Coral",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"comments",
+		"previousToken" ],
+	"name" : "SaphirScanner",
+	"pools" : [
+		 ],
+	"super" : "SmaCCScanner",
+	"type" : "normal" }

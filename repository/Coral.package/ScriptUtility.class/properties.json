@@ -1,0 +1,14 @@
+{
+	"category" : "Coral",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ScriptUtility",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

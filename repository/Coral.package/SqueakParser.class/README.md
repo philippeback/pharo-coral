@@ -1,0 +1,1 @@
+I parse Smalltalk text into a Refactory abstract syntax tree, whose root is RBMethodNode or RBDoItNode.  Methods under 'generated-*' categories were automatically generated using SmaCC.

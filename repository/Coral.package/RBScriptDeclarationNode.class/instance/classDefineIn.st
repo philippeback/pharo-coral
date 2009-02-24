@@ -1,0 +1,4 @@
+accessing
+classDefineIn
+	
+	^self subclassResponsibility

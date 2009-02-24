@@ -1,0 +1,16 @@
+{
+	"category" : "Coral",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"next",
+		"previous",
+		"eat" ],
+	"name" : "SqueakToken",
+	"pools" : [
+		 ],
+	"super" : "SmaCCToken",
+	"type" : "normal" }

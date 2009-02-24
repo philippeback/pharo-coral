@@ -1,0 +1,14 @@
+{
+	"category" : "Coral",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"classOfScript" ],
+	"name" : "RBScriptMethodDeclarationNode",
+	"pools" : [
+		 ],
+	"super" : "RBScriptDeclarationNode",
+	"type" : "normal" }

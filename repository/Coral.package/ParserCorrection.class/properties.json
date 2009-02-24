@@ -1,0 +1,14 @@
+{
+	"category" : "Coral",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"comments" ],
+	"name" : "ParserCorrection",
+	"pools" : [
+		 ],
+	"super" : "Parser2",
+	"type" : "normal" }
