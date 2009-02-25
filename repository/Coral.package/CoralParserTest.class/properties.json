@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"comments",
-		"previousToken" ],
-	"name" : "SaphirScanner",
+		 ],
+	"name" : "CoralParserTest",
 	"pools" : [
 		 ],
-	"super" : "SmaCCScanner",
+	"super" : "TestCase",
 	"type" : "normal" }

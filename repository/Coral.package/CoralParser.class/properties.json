@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "SaphirParserTest",
+		"classParseIn" ],
+	"name" : "CoralParser",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "RBParser",
 	"type" : "normal" }

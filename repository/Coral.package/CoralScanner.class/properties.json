@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"classParseIn" ],
-	"name" : "SaphirParser",
+		"comments",
+		"previousToken" ],
+	"name" : "CoralScanner",
 	"pools" : [
 		 ],
-	"super" : "RBParser",
+	"super" : "SmaCCScanner",
 	"type" : "normal" }

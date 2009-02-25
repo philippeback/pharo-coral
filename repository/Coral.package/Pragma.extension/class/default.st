@@ -1,6 +1,6 @@
 *coral
 default
 	
-	^self keyword: #category: arguments: #('saphir')
+	^self keyword: #category: arguments: #('coral')
 	
 		

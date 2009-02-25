@@ -1,4 +1,3 @@
 default
 parserForTests
-	
-	^ SaphirParser
+	^ CoralParser

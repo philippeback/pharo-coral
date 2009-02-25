@@ -1,4 +1,3 @@
 script interpreter
-parseAndInterpret: aStream
-
-	^self interpret: (SaphirParser parseScript: (self jumpIfBashScript: aStream)) 
+parseAndInterpret: aStream 
+	^ self interpret: (CoralParser parseScript: (self jumpIfBashScript: aStream))

@@ -1,4 +1,7 @@
 services
-parseAndInterpret: aStream in: class
-
-	^self interpret: (SaphirParser parseScript: (self jumpIfBashScript: aStream) in: class) in: class
+parseAndInterpret: aStream in: class 
+	^ self 
+		interpret: (CoralParser 
+				parseScript: (self jumpIfBashScript: aStream)
+				in: class)
+		in: class

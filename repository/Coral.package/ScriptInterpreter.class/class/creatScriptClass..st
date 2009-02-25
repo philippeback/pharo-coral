@@ -4,4 +4,4 @@ creatScriptClass: string
 		instanceVariableNames: ''
 		classVariableNames: ''
 		poolDictionaries: ''
-		category: 'Saphir-Interpreting'
+		category: 'Coral-Interpreting'
