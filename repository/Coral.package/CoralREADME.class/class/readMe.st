@@ -2,9 +2,11 @@ comment
 readMe
 	^ '"INSTRUCTIONS
 
+[We assume you are on a Mac -- you will need to adapt these instructions for other platforms ...]
+
 - Save this image as ''coral.image''
 
-- Install the following Squeak VM:
+- Install the following Squeak VM in /Applications/Squeak:
 
 http://homepage.mac.com/johnmci/.Public/Squeak%203.8.21beta1U.app.zip
 
