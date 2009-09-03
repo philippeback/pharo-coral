@@ -8,10 +8,13 @@ startUp
 		[ScriptInterpreter parseAndInterpret: (FileStream readOnlyFileNamed: script)] 
 			on: Exception
 			do: [ :ex | 
+				(ex isKindOf: InMidstOfFileinNotification) 
+					ifTrue:[ ex resume: false ]
+					ifFalse: [
 				Smalltalk
 					logError: ex printString
 					inContext: thisContext
 					to: 'SqueakDebug.log'.
-				Console printNl: ex].
+				Console printNl: ex printString]].
 		Console printNl: ''.
 		Smalltalk quitPrimitive]
