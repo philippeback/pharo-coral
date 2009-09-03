@@ -1,4 +1,0 @@
-testing
-isInsignificant
-	
-	^false

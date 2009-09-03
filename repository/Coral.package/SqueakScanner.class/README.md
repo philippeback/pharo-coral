@@ -1,1 +1,0 @@
-I parse Smalltalk text into tokens which are used by the SqueakParser.  Methods under 'generated-*' categories were automatically generated using SmaCC.

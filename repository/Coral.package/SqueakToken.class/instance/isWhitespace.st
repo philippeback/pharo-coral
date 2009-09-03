@@ -1,4 +1,0 @@
-testing
-isWhitespace
-
-	^id == #whitespace

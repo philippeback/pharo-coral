@@ -1,4 +1,0 @@
-reduction actions
-array
-
-	^ #()

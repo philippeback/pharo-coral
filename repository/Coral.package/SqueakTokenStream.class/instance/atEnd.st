@@ -1,4 +1,0 @@
-accessing
-atEnd
-	
-	^token isNil
