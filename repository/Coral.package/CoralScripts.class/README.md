@@ -1,0 +1,1 @@
+We should be able to do CoralScripts installOnDisc examples and we get all the scripts there :)

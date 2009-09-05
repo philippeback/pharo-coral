@@ -1,6 +1,6 @@
 private
 openWorkspaceLabeled: label withContents: contents
 	| info |
-	info := SHWorkspace new.
+	info := Workspace new.
 	info contents: contents.
 	info openLabel: label
