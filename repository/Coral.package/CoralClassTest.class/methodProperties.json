@@ -6,4 +6,5 @@
 		"testClassDefWithOneSharedIV" : "StephaneDucasse 9/5/2009 19:55",
 		"testClassDefWithSeveralIV" : "StephaneDucasse 9/5/2009 19:50",
 		"testClassDefWithSeveralIVWithSeparateDef" : "StephaneDucasse 9/5/2009 19:50",
-		"testSimpleClassDef" : "StephaneDucasse 9/5/2009 19:42" } }
+		"testSimpleClassDef" : "StephaneDucasse 9/5/2009 19:42",
+		"testSimpleClassDefWithPackage" : "StephaneDucasse 9/5/2009 21:37" } }

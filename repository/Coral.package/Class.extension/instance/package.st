@@ -1,0 +1,4 @@
+*coral
+package
+
+	^ self category
