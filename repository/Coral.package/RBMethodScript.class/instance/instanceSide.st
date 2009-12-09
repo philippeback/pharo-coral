@@ -1,4 +1,0 @@
-accessing
-instanceSide
-
-	isClassSide := false

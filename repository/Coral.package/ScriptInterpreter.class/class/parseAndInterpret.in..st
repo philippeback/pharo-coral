@@ -1,4 +1,4 @@
-services
+old
 parseAndInterpret: aStream in: class 
 	^ self 
 		interpret: (CoralParser 

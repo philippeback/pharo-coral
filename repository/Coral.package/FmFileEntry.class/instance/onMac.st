@@ -1,3 +1,0 @@
-testing
-onMac
-	^FileDirectory pathNameDelimiter = $:

@@ -1,0 +1,3 @@
+productions
+start
+	^ program end

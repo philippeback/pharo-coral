@@ -1,6 +1,8 @@
 {
 	"class" : {
+		"<<" : "StephaneDucasse 12/8/2009 17:59",
 		"closeConsole" : "ms 10/1/2006 16:15",
+		"cr" : "StephaneDucasse 12/8/2009 17:59",
 		"newLine" : "ms 10/5/2006 14:16",
 		"nextPutAll:" : "ms 10/1/2006 18:50",
 		"openConsole" : "ms 10/1/2006 16:15",

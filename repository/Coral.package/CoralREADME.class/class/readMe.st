@@ -2,6 +2,12 @@ comment
 readMe
 	^ '"INSTRUCTIONS
 
+TO REVISED.... 
+
+
+
+
+
 [We assume you are on a Mac -- you will need to adapt these instructions for other platforms ...]
 
 - Save this image as ''coral.image''

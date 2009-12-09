@@ -1,4 +1,4 @@
-private
+old
 jumpIfBashScript: aStream
 	
 	(aStream peek =$#) ifTrue: [

@@ -1,4 +1,4 @@
-private
+old
 creatScriptClass: string
 	^ScriptInterpreter subclass: string asSymbol
 		instanceVariableNames: ''

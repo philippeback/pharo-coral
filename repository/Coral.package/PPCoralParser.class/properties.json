@@ -1,0 +1,14 @@
+{
+	"category" : "Coral",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PPCoralParser",
+	"pools" : [
+		 ],
+	"super" : "PPCoralGrammar",
+	"type" : "normal" }

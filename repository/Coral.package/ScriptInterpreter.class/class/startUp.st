@@ -5,7 +5,7 @@ startUp
 	| script |
 	script := ((SmalltalkImage current getSystemAttribute: 2) ifNil:['']) convertFromSystemString.
 	script isEmpty ifFalse:[
-		[ScriptInterpreter parseAndInterpret: (FileStream readOnlyFileNamed: script)] 
+		[ScriptInterpreter parse: (FileStream readOnlyFileNamed: script)] 
 			on: Exception
 			do: [ :ex | 
 				(ex isKindOf: InMidstOfFileinNotification) 
@@ -14,7 +14,7 @@ startUp
 				Smalltalk
 					logError: ex printString
 					inContext: thisContext
-					to: 'SqueakDebug.log'.
+					to: 'CoralDebug.log'.
 				Console printNl: ex printString]].
 		Console printNl: ''.
 		Smalltalk quitPrimitive]

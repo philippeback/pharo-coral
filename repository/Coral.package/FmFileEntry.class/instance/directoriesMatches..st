@@ -1,3 +1,0 @@
-enumeration
-directoriesMatches: selectionBlock
-	^self asDirectoryEntry directoriesMatches: selectionBlock

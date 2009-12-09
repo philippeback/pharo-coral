@@ -1,3 +1,0 @@
-generated-starting states
-startingStateForMethodPattern
-	^3

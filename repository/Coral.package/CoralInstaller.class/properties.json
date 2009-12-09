@@ -1,0 +1,14 @@
+{
+	"category" : "Coral",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "StephaneDucasse 12/8/2009 18:26",
+	"instvars" : [
+		 ],
+	"name" : "CoralInstaller",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,3 +1,0 @@
-accessing
-rbMethodNode
-	^ rbMethodNode

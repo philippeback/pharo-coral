@@ -1,0 +1,20 @@
+{
+	"category" : "Coral",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"block",
+		"method",
+		"program",
+		"methodHeader",
+		"methodBody",
+		"bang",
+		"smalltalk" ],
+	"name" : "PPCoralGrammar",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }

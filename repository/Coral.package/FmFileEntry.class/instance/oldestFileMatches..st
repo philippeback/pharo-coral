@@ -1,3 +1,0 @@
-enumeration
-oldestFileMatches: selectionBlock
-	^self asDirectoryEntry oldestFileMatches: selectionBlock

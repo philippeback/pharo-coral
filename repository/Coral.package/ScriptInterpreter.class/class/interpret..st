@@ -1,4 +1,4 @@
-private
+old
 interpret: nodes
 
 	^self new nodes: nodes; interpret; yourself

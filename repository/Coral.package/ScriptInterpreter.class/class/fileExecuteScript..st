@@ -1,4 +1,4 @@
-services
+file list services
 fileExecuteScript: fullName
 
 	| fileName fileNameStream class |

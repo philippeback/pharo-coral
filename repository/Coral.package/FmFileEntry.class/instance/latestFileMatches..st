@@ -1,3 +1,0 @@
-enumeration
-latestFileMatches: selectionBlock
-	^self asDirectoryEntry latestFileMatches: selectionBlock
