@@ -2,6 +2,8 @@ productions
 method
 	^ super method ==> [ :nodes |
 		"waiting for the new compiler. For the moment we ask the old compiler to recompile everything"
+		
+		self halt.
 		(Smalltalk classNamed: nodes first first value)
 			compile: 
 			(nodes first third

@@ -1,3 +1,3 @@
 productions
 methodHeader
-	^ (self smalltalk identifier , 'class' asParser  optional) token , '>>' asParser token , self smalltalk methodDeclaration
+	^ self smalltalk identifier , 'class' asParser token optional , '>>' asParser token , self smalltalk methodDeclaration
