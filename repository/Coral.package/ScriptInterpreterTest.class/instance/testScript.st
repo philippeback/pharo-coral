@@ -1,7 +1,7 @@
 testing
 testScript
 	| interpreter |
-	self shouldnt: [interpreter := self parseAndInterpretString: '[
+	self shouldnt: [PPCoralParser parse: '[
 	Object subclass: #SaBox
 		instanceVariableNames: ''bob''
 		classVariableNames: ''''
@@ -34,4 +34,5 @@ testScript
 	]'] raise: Error.
 
 	self assert: (Smalltalk at: #SaBox ifAbsent:[nil]) notNil.
+	self halt.
 	self assert: interpreter result = 'Script test working'.
