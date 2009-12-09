@@ -7,8 +7,8 @@ method
 			(nodes first third
 				propertyAt: #class put: (Smalltalk classNamed: nodes first first value);
 				pragmas: nodes second second , nodes second fourth;
-				body: (RBSequenceNode 
-					temporaries: nodes second third
-					statements: nodes second fifth);
+				body: (self smalltalk 
+							build:  nodes second third 
+							sequence: nodes second fifth);
 				yourself) formattedCode
 			]

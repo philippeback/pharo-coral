@@ -17,7 +17,7 @@ testAccessIV
 	] raise: Error.
 
 	self shouldnt: [PPCoralParser parse: '
-		SaBox >> printOn: aStream
+		SaBox>> printOn: aStream
 	[
 		"<category: ''printing''>
 		<authorInitials: ''him''>"

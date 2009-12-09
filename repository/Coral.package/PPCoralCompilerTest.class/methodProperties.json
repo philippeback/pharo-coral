@@ -4,10 +4,11 @@
 	"instance" : {
 		"parserClass" : "StephaneDucasse 12/8/2009 17:55",
 		"testABlock" : "StephaneDucasse 12/8/2009 17:55",
-		"testAccessIV" : "TestRunner 12/9/2009 17:15",
+		"testAccessIV" : "TestRunner 12/9/2009 21:16",
 		"testAnotherBlock" : "StephaneDucasse 12/8/2009 17:55",
 		"testBangProgram" : "TestRunner 12/9/2009 17:20",
 		"testDefineAMethod" : "StephaneDucasse 12/8/2009 17:55",
+		"testDefineAMethodWithExtraDot" : "StephaneDucasse 12/9/2009 21:18",
 		"testFullProgram" : "StephaneDucasse 12/7/2009 17:02",
 		"testMethodUnary1" : "TestRunner 12/7/2009 23:27",
 		"testWhiteSpaceAfterClassName" : "TestRunner 12/9/2009 17:21" } }
