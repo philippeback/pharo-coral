@@ -15,3 +15,7 @@ testScript1
 		SaBox>>initialize
 		[bob := ''Script test working'']'
 	] raise: Error.
+
+	PPCoralParser parse: 'SaBox>>bob
+		[^ bob ]'.
+	self assert: (Smalltalk at: #SaBox) new bob = 'Script test working'

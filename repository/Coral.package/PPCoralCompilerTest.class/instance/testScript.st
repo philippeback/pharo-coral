@@ -1,6 +1,7 @@
 testing
 testScript
-	| interpreter |
+	"self debug: #testScript"
+	
 	self shouldnt: [PPCoralParser parse: '[
 	Object subclass: #SaBox
 		instanceVariableNames: ''bob''
@@ -34,5 +35,4 @@ testScript
 	]'] raise: Error.
 
 	self assert: (Smalltalk at: #SaBox ifAbsent:[nil]) notNil.
-	self halt.
-	self assert: interpreter result = 'Script test working'.
+	self assert: (Smalltalk at: #SaBox ifAbsent:[nil])  dummy = 3
