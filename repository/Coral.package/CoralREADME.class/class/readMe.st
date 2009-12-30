@@ -5,7 +5,8 @@ readMe
 TO REVISED.... 
 
 
-
+Q How does the image know how to interpret scripts?
+A ScriptInterpreter class>>initialize registers itself as a startup class
 
 
 [We assume you are on a Mac -- you will need to adapt these instructions for other platforms ...]
