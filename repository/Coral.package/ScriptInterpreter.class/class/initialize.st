@@ -1,6 +1,6 @@
 initialize-release
 initialize
 	"self initialize"	
-	Smalltalk addToStartUpList: self.
+	"Smalltalk addToStartUpList: self."
 	FileList registerFileReader: self.
-	Preferences setPreference: #readDocumentAtStartup toValue: false
+	"Preferences setPreference: #readDocumentAtStartup toValue: false"
