@@ -1,0 +1,14 @@
+{
+	"category" : "Coral",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "StephaneDucasse 1/3/2010 17:44",
+	"instvars" : [
+		 ],
+	"name" : "CoralScriptLoader",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

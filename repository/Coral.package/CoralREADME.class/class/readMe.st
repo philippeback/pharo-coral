@@ -19,12 +19,18 @@ Installer ss project: ''Rio'' ; install: ''File-Kernel'' ;install: ''File-Base''
 - Save the following shell script as ''coral.sh'' and make it executable:
 
 ''coral.sh'' asFile contents: ''#! /bin/sh
-vm=''''/Applications/Squeak/Squeak 4.2.1beta1U.app/Contents/MacOS/Squeak VM Opt''''
-"$vm" -headless coral.image $1''
+vm=''''/Applications/Squeak/Squeak 4.2.2beta1U.app/Contents/MacOS/Squeak VM Opt''''
+"$vm" -headless coral.image ""`pwd`/$1""''
 
-- Save the following script into the file ''hello.st''
+''coraldb.sh'' asFile contents: ''#! /bin/sh
+vm=''''/Applications/Squeak/Squeak 4.2.2beta1U.app/Contents/MacOS/Squeak VM Opt''''
+"$vm" coral.image ""`pwd`/$1" -noquit"''
 
-''hello.st'' asFile contents: ''[
+
+
+- Save the following script into the file ''hello.psc''
+
+''hello.psc'' asFile contents: ''[
 	Console print: ''''Coral is working'''', String lf.
 	Console print: ''''Yahoo!''''
 ]''

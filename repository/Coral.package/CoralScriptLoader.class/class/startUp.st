@@ -1,12 +1,12 @@
-system startup
+initialize-release
 startUp
-
 	"Smalltalk addToStartUpList: self"
 	| script |
-	self halt.
+	SmalltalkImage current shouldHaltAtStart
+		ifTrue: [self halt].
 	script := ((SmalltalkImage current getSystemAttribute: 2) ifNil:['']) convertFromSystemString.
 	script isEmpty ifFalse:[
-		[ScriptInterpreter parse: (FileStream readOnlyFileNamed: script)] 
+		[PPCoralParser parse: (FileStream readOnlyFileNamed: script) contents] 
 			on: Exception
 			do: [ :ex | 
 				(ex isKindOf: InMidstOfFileinNotification) 
@@ -18,4 +18,5 @@ startUp
 					to: 'CoralDebug.log'.
 				Console printNl: ex printString]].
 		Console printNl: ''.
-		Smalltalk quitPrimitive]
+		SmalltalkImage current shouldQuitAfterExecution ifTrue: [Smalltalk quitPrimitive]
+		]
