@@ -12,10 +12,6 @@ TO REVISED....
 
 http://homepage.mac.com/johnmci/.Public/Squeak%204.2.1beta1U.app.zip
 
-- Install Rio (File-Base) for simpler file management
-
-Installer ss project: ''Rio'' ; install: ''File-Kernel'' ;install: ''File-Base''.
-
 - Save the following shell script as ''coral.sh'' and make it executable:
 
 ''coral.sh'' asFile contents: ''#! /bin/sh
@@ -25,7 +21,6 @@ vm=''''/Applications/Squeak/Squeak 4.2.2beta1U.app/Contents/MacOS/Squeak VM Opt'
 ''coraldb.sh'' asFile contents: ''#! /bin/sh
 vm=''''/Applications/Squeak/Squeak 4.2.2beta1U.app/Contents/MacOS/Squeak VM Opt''''
 "$vm" coral.image ""`pwd`/$1" -noquit"''
-
 
 
 - Save the following script into the file ''hello.psc''
