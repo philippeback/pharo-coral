@@ -14,9 +14,18 @@ http://homepage.mac.com/johnmci/.Public/Squeak%204.2.1beta1U.app.zip
 
 - Save the following shell script as ''coral.sh'' and make it executable:
 
-''coral.sh'' asFile contents: ''#! /bin/sh
+CoralInstaller installBash.
+
+
+
+| str |
+str := FSUnixFilesystem new writeStreamOn: ''coral.sh2''.
+str nextPutAll: ''#! /bin/sh
 vm=''''/Applications/Squeak/Squeak 4.2.2beta1U.app/Contents/MacOS/Squeak VM Opt''''
-"$vm" -headless coral.image ""`pwd`/$1""''
+"$vm" -headless coral.image ""`pwd`/$1""''.
+str close
+
+
 
 ''coraldb.sh'' asFile contents: ''#! /bin/sh
 vm=''''/Applications/Squeak/Squeak 4.2.2beta1U.app/Contents/MacOS/Squeak VM Opt''''

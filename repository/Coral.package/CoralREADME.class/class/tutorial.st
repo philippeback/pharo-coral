@@ -1,17 +1,22 @@
 fileExample
 tutorial
 
-	"FSDiskFilesystem current root -> / 
-	FSDiskFilesystem current root class -> FSReference
-	
-	FSDiskFilesystem current childrenAt: FSDiskFilesystem current workingDirectory 
-		-> Array of FSReference
-	FSDiskFilesystem current childrenAt: '/Users/ducasse/Workspace/FirstCircle/ActiveResearch/Pharo/Pharo'
-		-> Array of FSReference
-		
-	FSDiskFilesystem current createDirectory: '/Users/ducasse/Workspace/FirstCircle/ActiveResearch/Pharo/Pharo/TestFS'
-	
-	FSDiskFilesystem current createDirectory: (FSDiskFilesystem current workingDirectory / 'TestFS2')
+	"str := FSUnixFilesystem new writeStreamOn: 'giffle'.
+str nextPutAll: 'zzzzzzzzzz'.
+str close
+
+FSDiskFilesystem current workingDirectory allChildren
+
+FSDiskFilesystem current workingDirectory allEntries
+
+
+FSDiskFilesystem current root -> / 
+FSDiskFilesystem current root class -> FSReference
+
+|working cache|
+working := FSDiskFilesystem current working.
+cache := working / 'package-cache'.
+cache entry creationdate
 	
 	
 	(FSDiskFilesystem current childrenAt: FSDiskFilesystem current workingDirectory )
