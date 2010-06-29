@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfCoral",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfCoral",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
