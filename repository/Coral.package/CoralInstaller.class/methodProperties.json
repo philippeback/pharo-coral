@@ -1,6 +1,8 @@
 {
 	"class" : {
-		"bashToRecreateInTheFuture" : "StephaneDucasse 12/8/2009 18:27",
-		"installBash" : "StephaneDucasse 2/16/2010 16:04" },
+		"createFileNamed:withContents:" : "lf 9/30/2010 17:39",
+		"generateAllExamples" : "lf 9/30/2010 18:56",
+		"generateCoralDebugScript" : "lf 9/30/2010 17:17",
+		"generateCoralScript" : "lf 9/30/2010 17:34" },
 	"instance" : {
 		 } }
