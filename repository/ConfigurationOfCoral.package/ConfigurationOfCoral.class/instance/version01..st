@@ -2,7 +2,7 @@ versions
 version01: spec 
 	<version: '0.1'>
 	spec for: #common do: [ 
-			spec repository: 'http://source.wiresong.ca/'. 
+			spec repository: 'http://source.wiresong.ca/mc'. 
 			spec package: 'Filesystem'.
 				
 			spec repository: 'http://www.squeaksource.com/rb'. 
@@ -13,8 +13,8 @@ version01: spec
 			
 			spec repository: 'http://source.lukas-renggli.ch/petit'.
 				spec package: 'PetitParser' with: 'PetitParser-lr.122'.	
-				spec package: 'PetitParser' with: 'PetitSmalltalk-lr.13'.
+				spec package: 'PetitSmaltalk' with: 'PetitSmalltalk-lr.13'.
 			
 			spec repository: 'http://www.squeaksource.com/Coral'.
-			spec package:  'Coral'; load.
+			spec package:  'Coral'.
 		]
