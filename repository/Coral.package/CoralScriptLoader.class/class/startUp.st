@@ -4,6 +4,7 @@ startUp
 	| script |
 	SmalltalkImage current shouldHaltAtStart
 		ifTrue: [self halt].
+	
 	script := ((SmalltalkImage current getSystemAttribute: 2) ifNil:['']) convertFromSystemString.
 	script isEmpty ifFalse:[
 		[PPCoralParser parse: (FileStream readOnlyFileNamed: script) contents] 

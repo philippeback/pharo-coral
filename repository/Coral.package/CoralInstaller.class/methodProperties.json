@@ -1,8 +1,9 @@
 {
 	"class" : {
 		"createFileNamed:withContents:" : "lf 9/30/2010 17:39",
-		"generateAllExamples" : "lf 9/30/2010 18:56",
+		"generateAllExamples" : "AdrienBarreau 10/4/2010 18:56",
 		"generateCoralDebugScript" : "lf 9/30/2010 17:17",
-		"generateCoralScript" : "lf 9/30/2010 17:34" },
+		"generateCoralScript" : "lf 9/30/2010 17:34",
+		"installBash" : "AdrienBarreau 10/4/2010 18:22" },
 	"instance" : {
 		 } }
