@@ -2,6 +2,8 @@
 	"class" : {
 		"hello" : "lf 9/30/2010 17:23",
 		"rioTest" : "lf 9/30/2010 17:22",
-		"scriptPrintArguments" : "AdrienBarreau 10/4/2010 19:00" },
+		"scriptCreationOfFolderAndFiles" : "AdrienBarreau 10/6/2010 13:33",
+		"scriptPrintArguments" : "AdrienBarreau 10/6/2010 13:23",
+		"scriptSynchronizeSecondFolderWithFirst" : "AdrienBarreau 10/6/2010 16:55" },
 	"instance" : {
 		 } }

@@ -1,6 +1,8 @@
 script examples
 scriptPrintArguments
-	^ '[
+	^ '"This script takes * arguments and print them with 3 arguments-using methods"
+	
+[
 	Console printNl:''getScriptName: '', CoralScriptWriting getScriptName.
 
 	Console printNl: ''getAllArguments:''.
