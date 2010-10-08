@@ -2,18 +2,19 @@ script examples
 scriptSynchronizeSecondFolderWithFirst
 	^ '"This script takes two paths as parameters. They should be two folders. This script will synchronize the
 second folder with the first.
-NB: Can be improve, this exemple just add the files which does not exist in the folder 2"
+NB: Can be improve, this example just add the files which does not exist in the folder 2"
 
 [ Object < #TempCoralClass ]
 
 TempCoralClass class>>synchronizeFolder1: folder1 folder2: folder2
 [
-	| files1 base2 |
+	| entries1 baseNames2 filesToCreate |
 	
-	base2 := folder2 children collect: [ :each | each basename ].
-	files1 := folder1 children reject: [ :each |  base2 includes: each basename ].
+	entries1 := folder1 children.
+	baseNames2 := folder2 children collect: [ :each | each basename ].
+	filesToCreate := entries1 reject: [ :each |  baseNames2 includes: each basename ].
 	
-	files1 do: [ :each | 
+	filesToCreate do: [ :each | 
 		each isFile 
 			ifTrue: [ 
 				| readStream |

@@ -1,7 +1,10 @@
 {
 	"class" : {
-		"getAllArguments" : "AdrienBarreau 10/4/2010 16:55",
-		"getAllArgumentsButScriptName" : "AdrienBarreau 10/4/2010 16:54",
-		"getScriptName" : "AdrienBarreau 10/4/2010 16:54" },
+		"getAllArguments" : "AdrienBarreau 10/8/2010 18:45",
+		"getAllArgumentsButScriptName" : "AdrienBarreau 10/8/2010 17:35",
+		"getAllArgumentsWithoutMinus" : "AdrienBarreau 10/8/2010 17:47",
+		"getAllArgumentsWithoutMinusButScriptName" : "AdrienBarreau 10/8/2010 17:47",
+		"getScriptName" : "AdrienBarreau 10/8/2010 17:47",
+		"resetArguments" : "AdrienBarreau 10/8/2010 17:36" },
 	"instance" : {
 		 } }

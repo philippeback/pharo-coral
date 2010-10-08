@@ -1,0 +1,3 @@
+arguments
+getAllArgumentsWithoutMinusButScriptName
+	^ self getAllArgumentsWithoutMinus allButFirst
