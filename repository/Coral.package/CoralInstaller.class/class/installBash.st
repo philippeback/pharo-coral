@@ -5,17 +5,12 @@ installBash
 	str := FSDiskFilesystem current writeStreamOn: 'coral.sh'.
 	str truncateTo: 0.
 	str 
-		nextPutAll: '#! /bin/sh';
-		nextPutAll: String lf;
-		nextPutAll: 'vm=''';
-		nextPutAll: Smalltalk vmFullPath;
-		nextPutAll: '''';
-		nextPutAll: String lf;
-		nextPutAll: 'image=''';
-		nextPutAll: (Smalltalk getSystemAttribute: 1);
-		nextPutAll: '''';
-		nextPutAll: String lf;
-		nextPutAll: String lf;
-		nextPutAll: '"$vm" -headless "$image" "`pwd`/$1" -coralArgs "$@"';
-		nextPutAll: String lf;
+		nextPutAll: ('#! /bin/sh', String lf);
+		nextPutAll: ('vm=''', Smalltalk vmFullPath, '''', String lf);
+		nextPutAll: ('image=''', (Smalltalk getSystemAttribute: 1), '''', String lf, String lf);
+		nextPutAll: 'for i in "$@"', String lf;
+		nextPutAll: 'do', String lf;
+		nextPutAll: (String tab, 'params="$params \"$i\""'), String lf;
+		nextPutAll: 'done', String lf, String lf;
+		nextPutAll: '"$vm" -headless "$image" "`pwd`/$1" -coralArgs "$params"', String lf;
 		close
