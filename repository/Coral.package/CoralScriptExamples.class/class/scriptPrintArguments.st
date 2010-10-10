@@ -6,7 +6,7 @@ scriptPrintArguments
 	Console printNl:''getScriptName: '', CoralScriptWriting getScriptName.
 
 	Console printNl: ''getAllArgumentsWithoutMinus:''.
-	CoralScriptWriting getAllArgumentsWithoutMinus: do: [ :each | Console printNl: each ].
+	CoralScriptWriting getAllArgumentsWithoutMinus do: [ :each | Console printNl: each ].
 
 	Console printNl: ''getAllArgumentsWithoutMinusButScriptName:''.
 	CoralScriptWriting getAllArgumentsWithoutMinusButScriptName do: [ :each | Console printNl: each ]

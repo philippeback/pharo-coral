@@ -26,8 +26,8 @@ If this folder exists, it is deleted first. In CoralGenerated, a few folders and
 					stream := ((((ref / ''CoralGenerated'') / ''b'') / ''c'') / ''coral.txt'') writeStream.
 					stream nextPutAll: ''FileGenerated with Coral''.
 					stream close.
-					Console<<(CoralScriptWriting getScriptName, '' done.''
-				])
+					Console<<(CoralScriptWriting getScriptName, '' done.'')
+				]
 		]
 ]	
 '

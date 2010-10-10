@@ -1,4 +1,4 @@
-system startup
+old
 startUp
 
 	"Smalltalk addToStartUpList: self"
