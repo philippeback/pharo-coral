@@ -1,3 +1,0 @@
-arguments
-getAllArgumentsButScriptName
-	^ self getAllArguments allButFirst

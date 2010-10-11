@@ -7,7 +7,7 @@ If this folder exists, it is deleted first. In CoralGenerated, a few folders and
 	| fs folder |
 
 	fs := FSDiskFilesystem currentClass createDefault.
-	folder := CoralScriptWriting getAllArgumentsButScriptName at:1 ifAbsent: [ String empty ].
+	folder := CoralScriptWriting getAllArgumentsWithoutMinusButScriptName at:1 ifAbsent: [ String empty ].
 	
 	folder isEmpty 
 		ifTrue: [ Console<<(''Use: '', CoralScriptWriting getScriptName, '' path'') ]
@@ -18,8 +18,10 @@ If this folder exists, it is deleted first. In CoralGenerated, a few folders and
 			ref exists
 				ifFalse: [ Console printError: ''The path should exist'' ]
 				ifTrue: [
-					| stream |
-					(ref / ''CoralGenerated'') deleteAll; createDirectory.
+					| stream baseRef |
+					baseRef := (ref / ''CoralGenerated'').
+					baseRef exists ifTrue: [ baseRef deleteAll ].
+					baseRef createDirectory.
 					((ref / ''CoralGenerated'') / ''a'') createDirectory.
 					((ref / ''CoralGenerated'') / ''b'') createDirectory.
 					(((ref / ''CoralGenerated'') / ''b'') / ''c'') createDirectory.
