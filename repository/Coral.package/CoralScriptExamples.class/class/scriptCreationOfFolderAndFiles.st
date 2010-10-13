@@ -1,5 +1,7 @@
 script examples
 scriptCreationOfFolderAndFiles
+	"CoralInstaller generateScript: #scriptCreationOfFolderAndFiles"
+
 	^ '"This script takes one parameter: a path. It will create a folder named CoralGenerated at the path.
 If this folder exists, it is deleted first. In CoralGenerated, a few folders and a file are created."
 

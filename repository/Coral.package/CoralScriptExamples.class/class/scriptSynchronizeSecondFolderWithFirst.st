@@ -1,5 +1,7 @@
 script examples
 scriptSynchronizeSecondFolderWithFirst
+	"CoralInstaller generateScript: #scriptSynchronizeSecondFolderWithFirst"
+
 	^ '"This script takes two paths as parameters. They should be two folders. This script will synchronize the
 second folder with the first.
 NB: Can be improve, this example just add the files which does not exist in the folder 2"

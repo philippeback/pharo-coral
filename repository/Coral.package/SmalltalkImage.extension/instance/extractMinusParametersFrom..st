@@ -2,10 +2,11 @@
 extractMinusParametersFrom: arguments
 	| dict previous previousWithMinus args |
 	
-	arguments ifEmpty: [ ^ dict ].
+	dict := Dictionary new.
+	
+	arguments isEmptyOrNil ifTrue: [ ^ dict ].
 	
 	args := OrderedCollection withAll: arguments.
-	dict := Dictionary new.
 
 	previous := previousWithMinus := args detect: [ :each | each first = $- ] ifNone: [ String space ].
 	[ args isEmpty or: [ args first = previous ] ] whileFalse: [ dict at: #* put: (dict at: #* ifAbsent: [ #() ]), (Array with: args first). args removeFirst ].

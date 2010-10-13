@@ -1,5 +1,7 @@
 script examples
 scriptPrintArguments
+	"CoralInstaller generateScript: #scriptPrintArguments"
+
 	^ '"This script takes * arguments and print them with 3 arguments-using methods"
 	
 [

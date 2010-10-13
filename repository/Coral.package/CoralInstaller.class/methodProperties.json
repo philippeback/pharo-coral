@@ -1,9 +1,10 @@
 {
 	"class" : {
 		"createFileNamed:withContents:" : "AdrienBarreau 10/11/2010 19:25",
-		"generateAllExamples" : "AdrienBarreau 10/4/2010 18:56",
+		"generateAllExamples" : "AdrienBarreau 10/13/2010 14:11",
 		"generateCoralDebugScript" : "lf 9/30/2010 17:17",
 		"generateCoralScript" : "lf 9/30/2010 17:34",
+		"generateScript:" : "AdrienBarreau 10/13/2010 14:11",
 		"installBash" : "AdrienBarreau 10/8/2010 19:36" },
 	"instance" : {
 		 } }
