@@ -13,7 +13,8 @@ version02: spec
 			spec package: 'OSProcess'.
 			
 			spec repository: 'http://source.lukas-renggli.ch/petit'.
-				spec package: 'PetitParser' with: 'PetitParser-lr.205'.	
+				spec package: 'PetitParser' with: 'PetitParser-lr.205'.		
+				spec package: 'PetitParser' with: 'PetitTests-lr.21'.	
 				spec package: 'PetitSmaltalk' with: 'PetitSmalltalk-lr.44'.
 			
 			spec repository: 'http://www.squeaksource.com/Coral'.
