@@ -2,6 +2,6 @@ testing
 testDefineAMethod
 	"self debug: #testDefineAMethod"
 	
-	PPCoralParser parse: 'SandBox >>blue [^ 2]'.
-	self assert: (self environment at: #SandBox) new blue = 2.
-	(self environment at: #SandBox) removeSelector: #blue.
+	PPCoralParser parse: 'Point >>blue [^ 2]'.
+	self assert: (self class environment at: #Point) new blue = 2.
+	(self class environment at: #Point) removeSelector: #blue.

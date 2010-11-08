@@ -2,7 +2,7 @@ testing
 testWhiteSpaceAfterClassName
 	"self debug: #testWhiteSpaceAfterClassName"
 	self shouldnt: [PPCoralParser parse: '
-		SandBox >> printOn: aStream
+		Point >> printOn: aStream
 	[
 		"<category: ''printing''>
 		<authorInitials: ''him''>"

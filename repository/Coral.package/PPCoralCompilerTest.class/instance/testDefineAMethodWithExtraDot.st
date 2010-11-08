@@ -2,6 +2,6 @@ testing
 testDefineAMethodWithExtraDot
 	"self debug: #testDefineAMethodWithExtraDot"
 	
-	PPCoralParser parse: 'SandBox>>blue [^ 2 . ]'.
-	self assert: SandBox new blue = 2.
-	SandBox removeSelector: #blue.
+	PPCoralParser parse: 'Point>>blue [^ 2 . ]'.
+	self assert: Point new blue = 2.
+	Point removeSelector: #blue.

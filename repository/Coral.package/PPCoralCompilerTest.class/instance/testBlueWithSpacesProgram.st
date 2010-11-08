@@ -4,8 +4,8 @@ testBlueWithSpacesProgram
 	
 	self assert: 
 		(PPCoralParser parse: '
-	SandBox>>blue 
+	Point>>blue 
 	    [^ 2]
 ' 
-		) = #(blue red true)
+		) = #(blue) 
 	
