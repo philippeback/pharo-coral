@@ -1,3 +1,3 @@
 productions
 methodBody
-	^ $[ asParser token , self smalltalk	 pragmas , self smalltalk temporaries , self smalltalk pragmas , self smalltalk statements , $] asParser token
+	^ $[ asParser token trim , self smalltalk	 pragmas , self smalltalk temporaries , self smalltalk pragmas , self smalltalk statements , $] asParser token trim
