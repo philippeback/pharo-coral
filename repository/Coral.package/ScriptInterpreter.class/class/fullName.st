@@ -1,4 +1,0 @@
-runing
-fullName
-	
-	^fileName
