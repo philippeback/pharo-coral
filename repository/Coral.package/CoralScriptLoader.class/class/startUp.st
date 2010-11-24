@@ -6,6 +6,7 @@ startUp
 		ifTrue: [self halt].
 	
 	script := ((SmalltalkImage current getSystemAttribute: 2) ifNil:['']) convertFromSystemString.
+
 	script isEmpty ifFalse:[
 		CoralScriptWriting resetArguments.
 		[PPCoralParser parse: (FileStream readOnlyFileNamed: script) contents] 
