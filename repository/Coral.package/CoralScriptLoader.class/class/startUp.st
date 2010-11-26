@@ -1,25 +1,49 @@
 initialize-release
 startUp
 	"Smalltalk addToStartUpList: self"
-	| script |
-	SmalltalkImage current shouldHaltAtStart
-		ifTrue: [self halt].
+	| inputStr exitShell  script |
+	"SmalltalkImage current shouldHaltAtStart
+		ifTrue: [self halt]."
+		
+	((SmalltalkImage current getSystemAttribute: 4) = '') 
+		ifTrue: [
+			Console printNl: '                                            \   /'.
+			Console printNl: '------------------------------------------    *'.
+			Console printNl: 'Pharo                                       /|=|\'.
+			Console printNl: 'open-source Smalltalk-inspired environment   |=|'.	
+			Console printNl: '------------------------------------------  |===|'.
 	
-	script := ((SmalltalkImage current getSystemAttribute: 2) ifNil:['']) convertFromSystemString.
+			Console print: '>'.
+			inputStr := nil.
+			exitShell := false.
 
-	script isEmpty ifFalse:[
-		CoralScriptWriting resetArguments.
-		[PPCoralParser parse: (FileStream readOnlyFileNamed: script) contents] 
-			on: Exception
-			do: [ :ex | 
-				(ex isKindOf: InMidstOfFileinNotification) 
-					ifTrue:[ ex resume: false ]
-					ifFalse: [
-				Smalltalk
-					logError: ex printString
-					inContext: thisContext
-					to: 'CoralDebug.log'.
-				Console printNl: ex printString]].
-		Console printNl: ''.
-		SmalltalkImage current shouldQuitAfterExecution ifTrue: [Smalltalk quitPrimitive]
+			[ exitShell ] whileFalse: [	
+				((inputStr := OSProcess readFromStdIn) = '') ifFalse: [
+					inputStr := inputStr allButLast.
+					[ ScriptInterpreter parse: '[' , inputStr , ']' ]
+						on: Exception
+						do: [ :ex | Console printNl: ex printString ].
+					Console print: '>'. ]]
 		]
+		ifFalse: [
+			script := ((SmalltalkImage current getSystemAttribute: 2) ifNil:['']) convertFromSystemString.
+
+			script isEmpty ifFalse:[
+				CoralScriptWriting resetArguments.
+				[PPCoralParser parse: (FileStream readOnlyFileNamed: script) contents] 
+					on: Exception
+					do: [ :ex | 
+						(ex isKindOf: InMidstOfFileinNotification) 
+							ifTrue:[ ex resume: false ]
+							ifFalse: [
+						Smalltalk
+							logError: ex printString
+							inContext: thisContext
+							to: 'CoralDebug.log'.
+						Console printNl: ex printString]].
+				Console printNl: ''.
+				SmalltalkImage current shouldQuitAfterExecution ifTrue: [Smalltalk quitPrimitive]
+				]
+		]
+		
+	

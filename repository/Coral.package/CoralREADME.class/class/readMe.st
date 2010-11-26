@@ -16,7 +16,7 @@ SmalltalkImage current saveAs: ''coral.image''.
 CoralInstaller generateCoralScript.
 CoralInstaller generateCoralDebugScript.
 
-"3)  make them executable: chmod +x coral.sh coraldb.sh"
+"3)  make them executable: chmod +x coral.sh coralDebug.sh"
 
 "4) Generate examples implemented in CoralScriptExamples"
 
