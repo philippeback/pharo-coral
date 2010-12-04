@@ -2,28 +2,17 @@ initialize-release
 startUp
 	"Smalltalk addToStartUpList: self"
 	| inputStr exitShell  script |
-	"SmalltalkImage current shouldHaltAtStart
-		ifTrue: [self halt]."
 		
 	((SmalltalkImage current getSystemAttribute: 4) = '') 
 		ifTrue: [
-			Console printNl: '                                            \   /'.
-			Console printNl: '------------------------------------------    *'.
-			Console printNl: 'Pharo                                       /|=|\'.
-			Console printNl: 'open-source Smalltalk-inspired environment   |=|'.	
-			Console printNl: '------------------------------------------  |===|'.
-	
-			Console print: '>'.
+			Console prompt: '>>'; banner.
 			inputStr := nil.
 			exitShell := false.
-
-			[ exitShell ] whileFalse: [	
-				((inputStr := OSProcess readFromStdIn) = '') ifFalse: [
-					inputStr := inputStr allButLast.
-					[ ScriptInterpreter parse: '[' , inputStr , ']' ]
+				
+			[ exitShell ] whileFalse: [
+				[ ScriptInterpreter parse: '[' , Console read , ']' ]
 						on: Exception
-						do: [ :ex | Console printNl: ex printString ].
-					Console print: '>'. ]]
+						do: [ :ex | Console printNl: ex printString ] ]
 		]
 		ifFalse: [
 			script := ((SmalltalkImage current getSystemAttribute: 2) ifNil:['']) convertFromSystemString.
