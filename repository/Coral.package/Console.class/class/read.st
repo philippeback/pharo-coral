@@ -1,4 +1,4 @@
-console
+input
 read
 	"Read a string until newline"
 	| inputStr exitShell |

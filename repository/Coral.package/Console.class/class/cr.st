@@ -1,4 +1,4 @@
-console
+output
 cr 
 	
 	^OSProcess thisOSProcess newLineInConsole

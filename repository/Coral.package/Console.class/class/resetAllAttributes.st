@@ -1,4 +1,4 @@
-console
+output
 resetAllAttributes
 	"Reset all display attributes"
 	

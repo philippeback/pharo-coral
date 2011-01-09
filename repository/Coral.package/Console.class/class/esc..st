@@ -1,4 +1,4 @@
-console
+output
 esc: escapeSequence
 	"Output escape sequence to console"
 

@@ -2,17 +2,24 @@ initialize-release
 startUp
 	"Smalltalk addToStartUpList: self"
 	| inputStr exitShell  script |
+	
+	Console initHistory.
+	Console prompt: '> '.	
 		
 	((SmalltalkImage current getSystemAttribute: 4) = '') 
 		ifTrue: [
-			Console prompt: '>>'; banner.
-			inputStr := nil.
+			Console banner.
 			exitShell := false.
 				
 			[ exitShell ] whileFalse: [
-				[ ScriptInterpreter parse: '[' , Console read , ']' ]
-						on: Exception
-						do: [ :ex | Console printNl: ex printString ] ]
+				((inputStr := Console read) = '') 
+					ifTrue: [ Console listHistory ]
+					ifFalse: [
+						Console addToHistory: inputStr.
+							[ ScriptInterpreter parse: '[' , inputStr , ']' ]
+								on: Exception
+								do: [ :ex | Console printNl: ex printString ] ]
+					]
 		]
 		ifFalse: [
 			script := ((SmalltalkImage current getSystemAttribute: 2) ifNil:['']) convertFromSystemString.

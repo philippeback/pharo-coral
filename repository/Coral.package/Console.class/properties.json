@@ -1,7 +1,8 @@
 {
 	"category" : "Coral",
 	"classinstvars" : [
-		"prompt" ],
+		"prompt",
+		"history" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",

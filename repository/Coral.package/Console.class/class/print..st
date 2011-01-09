@@ -1,4 +1,4 @@
-console
+output
 print: aStream
 
-	OSProcess thisOSProcess stdOut nextPutAll: aStream
+	Console << aStream.

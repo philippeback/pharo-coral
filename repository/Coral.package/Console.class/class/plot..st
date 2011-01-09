@@ -1,4 +1,4 @@
-console
+output
 plot: position
 	"comment stating purpose of message"
 

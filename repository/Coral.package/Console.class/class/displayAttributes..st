@@ -1,4 +1,4 @@
-console
+output
 displayAttributes: attributes
 	"Sets multiple display attribute settings
 	

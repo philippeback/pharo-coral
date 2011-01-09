@@ -1,4 +1,4 @@
-console
+output
 prompt
 	"return the prompt"
 

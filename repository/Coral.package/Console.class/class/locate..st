@@ -1,4 +1,4 @@
-console
+output
 locate: position
 	"Sets the cursor position where subsequent text will begin"
 	

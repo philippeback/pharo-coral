@@ -1,4 +1,4 @@
-console
+output
 prompt: aString
 	"set the prompt"
 
