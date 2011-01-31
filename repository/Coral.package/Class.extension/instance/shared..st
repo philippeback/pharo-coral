@@ -1,4 +1,4 @@
 *coral
 shared: aStringOfaSingleOrMultipleClassVar
 
-	^ self addClassVarName: aStringOfaSingleOrMultipleClassVar
+	^ self addClassVarNamed: aStringOfaSingleOrMultipleClassVar

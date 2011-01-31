@@ -1,4 +1,4 @@
 *coral
 iv: aStringOfaSingleOrMultipleIV
 
-	^ self addInstVarName: aStringOfaSingleOrMultipleIV
+	^ self addInstVarNamed: aStringOfaSingleOrMultipleIV
