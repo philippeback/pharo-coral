@@ -16,11 +16,7 @@ baseline03: spec
 				spec repository: 'http://www.squeaksource.com/OSProcess'. 
 			].
 			
-			spec package: 'OSProcess-Tests' with: [
-				spec repository: 'http://www.squeaksource.com/OSProcess';
-					requires: 'OSProcess'
-			].
-		
+
 			spec project: 'OSProcess' with: [
 				spec
 					className: 'ConfigurationOfOSProcess';
