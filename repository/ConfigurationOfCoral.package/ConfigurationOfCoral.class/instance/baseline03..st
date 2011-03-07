@@ -12,11 +12,6 @@ baseline03: spec
 				spec repository: 'http://www.squeaksource.com/rb'. 
 			].
 			
-			spec package: 'OSProcess' with: [
-				spec repository: 'http://www.squeaksource.com/OSProcess'. 
-			].
-			
-
 			spec project: 'OSProcess' with: [
 				spec
 					className: 'ConfigurationOfOSProcess';
