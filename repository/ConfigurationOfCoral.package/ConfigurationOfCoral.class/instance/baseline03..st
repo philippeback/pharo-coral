@@ -1,6 +1,6 @@
 versions
-baseline02: spec 
-	<version: '0.2-baseline'>
+baseline03: spec 
+	<version: '0.3-baseline'>
 	spec for: #common do: [ 
 			spec blessing: #baseline.
 			
@@ -20,6 +20,14 @@ baseline02: spec
 				spec repository: 'http://www.squeaksource.com/OSProcess';
 					requires: 'OSProcess'
 			].
+		
+			spec project: 'OSProcess' with: [
+				spec
+					className: 'ConfigurationOfOSProcess';
+					file: 'ConfigurationOfOSProcess';
+					version: '4.4.0';
+					repository: 'http://www.squeaksource.com/OSProcess' ].
+		
 	
 			spec repository: 'http://source.lukas-renggli.ch/petit'.
 			

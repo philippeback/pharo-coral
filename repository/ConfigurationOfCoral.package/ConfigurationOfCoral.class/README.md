@@ -5,6 +5,8 @@
 (ConfigurationOfCoral project version: '0.2') load
 	trying to use to the latest AST/petitparser....
 	
-(ConfigurationOfCoral project version: '0.3') load
+(ConfigurationOfCoral project version: '0.4') load
 	loading fs from squeaksource
+	fixed petitparser loading (should use configurationOfPetitParser)
 	loading OSProcess in version (strange it was not in version0.2)
+	using configurationOf
