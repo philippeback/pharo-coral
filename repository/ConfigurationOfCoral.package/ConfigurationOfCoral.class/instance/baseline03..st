@@ -27,7 +27,7 @@ baseline03: spec
 			].	
 			
 			spec package: 'PetitSmaltalk' with: [
-				spec requires: #('PetitParser') 
+				spec requires: #('PetitParser' 'PetitTest') 
 			].
 		
 			spec package: 'PetitTest' with: [
