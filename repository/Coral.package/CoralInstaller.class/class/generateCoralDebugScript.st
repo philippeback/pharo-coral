@@ -13,5 +13,5 @@ generateCoralDebugScript
 		nextPutAll: 'do', String lf;
 		nextPutAll: (String tab, 'params="$params \"$i\""'), String lf;
 		nextPutAll: 'done', String lf, String lf;
-		nextPutAll: '"$vm" "$image" -noquit "`pwd`/$1" -coralArgs "$params"', String lf;
+		nextPutAll: '"$vm" "$image" "`pwd`/$1" -noquit -coralArgs "$params"', String lf;
 		close

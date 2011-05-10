@@ -1,5 +1,5 @@
 script examples
-hello
+scriptHello
 
   ^'[
 	Console print: ''Coral is working'', String lf.
