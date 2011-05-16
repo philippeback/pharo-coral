@@ -1,0 +1,4 @@
+arguments
+getArgumentsNumber
+	^ coralArgsCollection size
+	

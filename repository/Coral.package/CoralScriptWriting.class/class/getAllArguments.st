@@ -10,7 +10,8 @@ getAllArguments
 		flag 
 			ifTrue: [ 
 				coralArgs := coralArgs at: #coralArgs.
-				currentArgs := SmalltalkImage current extractMinusParametersFrom:  ((coralArgs first subStrings: '"') reject: [ :each | each = String space ])
+				coralArgsCollection := (coralArgs first subStrings: '"') reject: [ :each | each = String space ].
+				currentArgs := SmalltalkImage current extractMinusParametersFrom: coralArgsCollection.
 			]
 			ifFalse: [ currentArgs := Dictionary new ]	
 	].

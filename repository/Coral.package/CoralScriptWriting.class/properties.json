@@ -1,7 +1,8 @@
 {
 	"category" : "Coral",
 	"classinstvars" : [
-		"currentArgs" ],
+		"currentArgs",
+		"coralArgsCollection" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
