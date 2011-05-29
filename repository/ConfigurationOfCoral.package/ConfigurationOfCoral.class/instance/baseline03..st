@@ -16,7 +16,7 @@ baseline03: spec
 				spec
 					className: 'ConfigurationOfOSProcess';
 					file: 'ConfigurationOfOSProcess';
-					version: '4.4.0';
+					version: '4.4.2';
 					repository: 'http://www.squeaksource.com/MetacelloRepository' ].
 		
 	
