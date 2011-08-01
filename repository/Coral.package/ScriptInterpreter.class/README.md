@@ -1,0 +1,1 @@
+A ScriptInterpreter is responsible of evaluating a Coral script.
