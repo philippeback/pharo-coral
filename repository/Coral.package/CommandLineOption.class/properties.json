@@ -1,0 +1,14 @@
+{
+	"category" : "Coral",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"argumentParser" ],
+	"name" : "CommandLineOption",
+	"pools" : [
+		 ],
+	"super" : "CommandLineFlag",
+	"type" : "normal" }
