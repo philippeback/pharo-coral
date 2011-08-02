@@ -1,0 +1,18 @@
+{
+	"category" : "Coral",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"arguments",
+		"shortOption",
+		"longOption",
+		"shortOptionName",
+		"longOptionName" ],
+	"name" : "PPCommandLineOptionGrammar",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }
