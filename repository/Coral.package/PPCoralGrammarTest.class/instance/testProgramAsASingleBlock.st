@@ -1,4 +1,4 @@
-testing
+tests
 testProgramAsASingleBlock
 	"self debug: #testProgram"
 

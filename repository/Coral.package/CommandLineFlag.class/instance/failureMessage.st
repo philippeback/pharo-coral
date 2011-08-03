@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 failureMessage
 	^ 'Flag ' , self descriptiveName , ' not set'

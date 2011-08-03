@@ -1,4 +1,4 @@
-testing
+tests
 testDefineAMethod
 	"self debug: #testDefineAMethod"
 	

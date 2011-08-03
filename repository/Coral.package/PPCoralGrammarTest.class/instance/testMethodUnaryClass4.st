@@ -1,4 +1,4 @@
-testing
+tests
 testMethodUnaryClass4
 	"self debug: #testMethodUnaryClass4"
 

@@ -11,5 +11,5 @@
 	"name" : "CommandLineParsingTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "PPCompositeParserTest",
 	"type" : "normal" }

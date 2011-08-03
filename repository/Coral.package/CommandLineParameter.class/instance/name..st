@@ -1,3 +1,3 @@
-as yet unclassified
+initialization
 name: aString
 	name := aString

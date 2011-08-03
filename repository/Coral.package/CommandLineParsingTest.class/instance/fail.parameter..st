@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 fail: entry parameter: parameter
 	| result |
 	result := parameter asParser end parse: entry.

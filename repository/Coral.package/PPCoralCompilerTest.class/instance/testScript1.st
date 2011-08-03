@@ -1,4 +1,4 @@
-testing
+tests
 testScript1
 	"self debug: #testScript1"
 

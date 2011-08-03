@@ -1,4 +1,4 @@
-testing
+tests
 testBangProgram
 	"self debug: #testBangProgram"
 	

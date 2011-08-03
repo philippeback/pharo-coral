@@ -1,3 +1,3 @@
-as yet unclassified
+initialization
 short: aCharacter
 	short := aCharacter

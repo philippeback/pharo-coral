@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 descriptiveName
 	| result |
 	result := OrderedCollection new: 2.

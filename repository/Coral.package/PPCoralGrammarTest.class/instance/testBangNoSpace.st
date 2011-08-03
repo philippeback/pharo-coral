@@ -1,4 +1,4 @@
-testing
+tests
 testBangNoSpace
 	"self debug: #testBangNoSpace"
 

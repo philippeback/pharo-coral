@@ -1,4 +1,4 @@
-testing
+tests
 testWhiteSpaceAfterClassName
 	"self debug: #testWhiteSpaceAfterClassName"
 	self shouldnt: [PPCoralParser parse: '

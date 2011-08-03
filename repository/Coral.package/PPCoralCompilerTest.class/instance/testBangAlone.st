@@ -1,4 +1,4 @@
-testing
+tests
 testBangAlone
 	"self debug: #testBangAlone"
 	

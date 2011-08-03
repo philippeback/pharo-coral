@@ -1,4 +1,4 @@
-testing
+tests
 testDefineAMethodWithExtraDot
 	"self debug: #testDefineAMethodWithExtraDot"
 	

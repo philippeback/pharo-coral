@@ -1,3 +1,3 @@
-as yet unclassified
+initialization
 description: aString
 	description := aString

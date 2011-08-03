@@ -1,4 +1,4 @@
-testing
+tests
 testAnotherBlock
 	"self debug: #testAnotherBlock"
 	

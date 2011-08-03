@@ -1,4 +1,4 @@
-as yet unclassified
+running
 setUp
 	flag := CommandLineFlag new
 		description: 'Play the xylophone';

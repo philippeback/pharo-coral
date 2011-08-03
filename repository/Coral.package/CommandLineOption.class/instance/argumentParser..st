@@ -1,3 +1,3 @@
-as yet unclassified
+initialization
 argumentParser: aParser
 	argumentParser := aParser

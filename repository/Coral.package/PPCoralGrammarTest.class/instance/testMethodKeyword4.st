@@ -1,4 +1,4 @@
-testing
+tests
 testMethodKeyword4
 	"self debug: #testMethodKeyword4"
 

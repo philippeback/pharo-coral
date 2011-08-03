@@ -1,5 +1,5 @@
-as yet unclassified
+converting
 asParser
 	^ super asParser ,
 		($= asParser / #space asParser star) ,
-		argumentParser
+		(argumentParser / (PPFailingParser message: 'Option ' , self descriptiveName , ' expects an argument.'))

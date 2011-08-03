@@ -1,4 +1,4 @@
-as yet unclassified
+tests-parameters
 testFlag
 	self parse: '-x' parameter: flag.
 	self fail: '-x foo' parameter: flag.

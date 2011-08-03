@@ -1,4 +1,4 @@
-as yet unclassified
+converting
 asParser
 	| result |
 	result := PPFailingParser message: self failureMessage.

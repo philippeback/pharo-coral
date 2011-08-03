@@ -1,4 +1,4 @@
-testing
+tests
 testABlock
 	"self debug: #testABlock"
 	

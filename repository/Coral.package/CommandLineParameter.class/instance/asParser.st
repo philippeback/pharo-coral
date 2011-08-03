@@ -1,3 +1,3 @@
-accessing
-failureMessage
+converting
+asParser
 	^ self subclassResponsibility

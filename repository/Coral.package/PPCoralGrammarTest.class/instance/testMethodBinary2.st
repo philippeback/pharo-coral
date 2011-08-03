@@ -1,4 +1,4 @@
-testing
+tests
 testMethodBinary2
 	"self debug: #testMethodBinary2"
 
