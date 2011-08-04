@@ -1,3 +1,0 @@
-accessing
-descriptiveName
-	^ name

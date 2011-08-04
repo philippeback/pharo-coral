@@ -1,0 +1,16 @@
+{
+	"category" : "Coral",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parser",
+		"isOptional",
+		"isMultiple" ],
+	"name" : "CLIParameter",
+	"pools" : [
+		 ],
+	"super" : "CLITerm",
+	"type" : "normal" }
