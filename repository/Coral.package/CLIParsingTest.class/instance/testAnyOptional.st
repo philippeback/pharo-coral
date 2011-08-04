@@ -1,4 +1,4 @@
-tests
+tests-parameters
 testAnyOptional
 	self assert: self any optional parse: #('abc') to: 'abc'.
 	self assert: self any optional parse: #('123') to: '123'.

@@ -1,4 +1,4 @@
-tests
+tests-parameters
 testAny
 	self assert: self any parse: #('abc') to: 'abc'.
 	self assert: self any parse: #('123') to: '123'.

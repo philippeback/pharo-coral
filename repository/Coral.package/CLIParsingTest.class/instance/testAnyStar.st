@@ -1,4 +1,4 @@
-tests
+tests-parameters
 testAnyStar
 	self assert: self any star parse: #('abc') to: #('abc').
 	self assert: self any star parse: #('123') to: #('123').

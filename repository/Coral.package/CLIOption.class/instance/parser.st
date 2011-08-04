@@ -4,4 +4,5 @@ parser
 		parser := PPPredicateObjectParser
 					matching: self shortForm asParser token / self longForm asParser token
 					message: 'Option ' , self name , ' expected'.
-		parameter ifNotNil: [ parser := parser , parameter ] ]
+		parameter ifNotNil: [ parser := parser , parameter ].
+		parser ]
