@@ -1,0 +1,15 @@
+{
+	"category" : "Coral-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"flag",
+		"option" ],
+	"name" : "CommandLineParsingTest",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParserTest",
+	"type" : "normal" }

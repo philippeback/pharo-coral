@@ -1,0 +1,3 @@
+productions
+longOption
+	^ '--' asParser , longOptionName

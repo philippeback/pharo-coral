@@ -1,0 +1,15 @@
+{
+	"category" : "Coral",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"description" ],
+	"name" : "CommandLineParameter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

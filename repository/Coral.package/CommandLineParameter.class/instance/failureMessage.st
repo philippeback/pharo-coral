@@ -1,0 +1,3 @@
+accessing
+failureMessage
+	^ self subclassResponsibility

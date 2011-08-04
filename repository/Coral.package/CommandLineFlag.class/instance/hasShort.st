@@ -1,0 +1,3 @@
+testing
+hasShort
+	^ short notNil
