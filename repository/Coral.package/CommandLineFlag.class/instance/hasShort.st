@@ -1,3 +1,0 @@
-testing
-hasShort
-	^ short notNil

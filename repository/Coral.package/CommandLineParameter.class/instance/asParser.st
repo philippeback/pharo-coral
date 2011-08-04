@@ -1,3 +1,0 @@
-converting
-asParser
-	^ self subclassResponsibility

@@ -1,3 +1,0 @@
-productions
-start
-	^ arguments end

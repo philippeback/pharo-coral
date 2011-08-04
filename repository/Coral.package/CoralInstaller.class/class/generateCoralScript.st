@@ -3,7 +3,7 @@ generateCoralScript
 	"self generateCoralScript"
 
 	| str |
-	str := FSFilesystem onDisk writeStreamOn: 'coral.sh'.
+	str := FSDiskFilesystem current writeStreamOn: 'coral.sh'.
 	str truncateTo: 0.
 	str 
 		nextPutAll: ('#! /bin/sh', String lf);
