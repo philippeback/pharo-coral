@@ -8,12 +8,13 @@
 		"metacelloVersion:loads:" : "StephaneDucasse 6/29/2010 17:00",
 		"project" : "StephaneDucasse 6/29/2010 17:00" },
 	"instance" : {
-		"baseline01:" : "LucFabresse 1/31/2011 13:16",
-		"baseline02:" : "StephaneDucasse 3/6/2011 21:08",
-		"baseline03:" : "AdrienBarreau 5/29/2011 12:37",
-		"baseline04:" : "DamienPollet 8/6/2011 23:23",
+		"baseline01:" : "DamienPollet 8/7/2011 02:52",
+		"baseline02:" : "DamienPollet 8/7/2011 02:52",
+		"baseline03:" : "DamienPollet 8/7/2011 02:52",
+		"baseline04:" : "DamienPollet 8/7/2011 03:18",
+		"default:" : "DamienPollet 8/7/2011 03:26",
 		"project" : "StephaneDucasse 6/29/2010 17:08",
 		"version01:" : "LucFabresse 9/30/2010 16:20",
 		"version02:" : "StephaneDucasse 11/8/2010 09:01",
-		"version03:" : "StephaneDucasse 3/7/2011 08:04",
-		"version04:" : "DamienPollet 8/6/2011 23:22" } }
+		"version03:" : "DamienPollet 8/7/2011 02:54",
+		"version04:" : "DamienPollet 8/7/2011 03:17" } }

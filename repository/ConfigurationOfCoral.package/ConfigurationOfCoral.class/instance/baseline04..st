@@ -19,11 +19,12 @@ baseline04: spec
 					file: 'ConfigurationOfOSProcess';
 					repository: 'http://www.squeaksource.com/MetacelloRepository' ].
 		
-			spec repository: 'http://source.lukas-renggli.ch/petit'.
 			spec project: 'PetitParser' with: [
 				spec
 					className: 'ConfigurationOfPetitParser';
-					file: 'ConfigurationOfPetitParser' ].
+					file: 'ConfigurationOfPetitParser';
+					version: 'default';
+					repository: 'http://source.lukas-renggli.ch/petit' ].
 			spec package: 'PetitSmalltalk' with: [ spec requires: #PetitParser ].
 			
 			spec repository: 'http://www.squeaksource.com/Coral'.

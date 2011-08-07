@@ -27,7 +27,7 @@ baseline02: spec
 				spec requires: #('AST-Core') 
 			].	
 			
-			spec package: 'PetitSmaltalk' with: [
+			spec package: 'PetitSmalltalk' with: [
 				spec requires: #('PetitParser') 
 			].
 		
@@ -37,7 +37,7 @@ baseline02: spec
 			
 			spec repository: 'http://www.squeaksource.com/Coral'.
 			spec package:  'Coral' with: [
-				spec requires: #( 'Filesystem' 'OSProcess' 'PetitSmaltalk' )	
+				spec requires: #( 'Filesystem' 'OSProcess' 'PetitSmalltalk' )	
 			].
 		
 			spec
