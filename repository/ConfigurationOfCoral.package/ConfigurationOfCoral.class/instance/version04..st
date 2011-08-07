@@ -6,7 +6,6 @@ version04: spec
 		spec
 			project: 'Filesystem' with: '2.0.1';
 			project: 'OSProcess' with: '4.4.2';
-			project: 'PetitParser' with: 'minimal';
+			project: 'PetitParser' with: '1.4';
 			package: 'AST-Core' with: 'AST-Core-lr.87';
 			package: 'PetitSmalltalk' with: 'PetitSmalltalk-lr.47'.]
-		

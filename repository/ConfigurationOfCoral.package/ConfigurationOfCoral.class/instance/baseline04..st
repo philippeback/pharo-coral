@@ -9,9 +9,6 @@ baseline04: spec
 					className: 'ConfigurationOfFilesystem';
 					file: 'ConfigurationOfFilesystem';
 					repository: 'http://www.squeaksource.com/fs' ].
-				
-			spec package: 'AST-Core' with: [
-				spec repository: 'http://www.squeaksource.com/rb' ].
 			
 			spec project: 'OSProcess' with: [
 				spec
@@ -21,14 +18,9 @@ baseline04: spec
 		
 			spec project: 'PetitParser' with: [
 				spec
-					className: 'ConfigurationOfPetitParser';
-					file: 'ConfigurationOfPetitParser';
-					version: 'default';
-					repository: 'http://source.lukas-renggli.ch/petit' ].
-			spec package: 'PetitSmalltalk' with: [
-				spec
 					repository: 'http://source.lukas-renggli.ch/petit';
-					requires: #( 'PetitParser' 'AST-Core' ) ].
+					className: 'ConfigurationOfPetitParser';
+					loads: #('Core' 'Tests' 'PetitSmalltalk') ].
 			
 			spec repository: 'http://www.squeaksource.com/Coral'.
 			spec package:  'Coral' with: [
