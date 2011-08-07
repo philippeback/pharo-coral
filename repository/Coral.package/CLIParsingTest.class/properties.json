@@ -11,5 +11,5 @@
 	"name" : "CLIParsingTest",
 	"pools" : [
 		 ],
-	"super" : "AnObsoletePPAbstractParserTest",
+	"super" : "PPAbstractParseTest",
 	"type" : "normal" }
