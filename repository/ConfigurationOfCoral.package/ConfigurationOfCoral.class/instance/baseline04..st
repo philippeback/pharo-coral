@@ -25,7 +25,10 @@ baseline04: spec
 					file: 'ConfigurationOfPetitParser';
 					version: 'default';
 					repository: 'http://source.lukas-renggli.ch/petit' ].
-			spec package: 'PetitSmalltalk' with: [ spec requires: #PetitParser ].
+			spec package: 'PetitSmalltalk' with: [
+				spec
+					repository: 'http://source.lukas-renggli.ch/petit';
+					requires: #PetitParser ].
 			
 			spec repository: 'http://www.squeaksource.com/Coral'.
 			spec package:  'Coral' with: [
