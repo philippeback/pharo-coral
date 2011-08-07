@@ -1,11 +1,11 @@
 accessing
 parser
-	^ parser ifNil: [ | choice |
-		choice := PPChoiceParser withAll: #().
-		self shortForm ifNotNilDo: [ :it | choice := choice / it asParser token ].
-		self longForm ifNotNilDo: [ :it | choice := choice / it asParser token ].
+	^ parser ifNil: [ | choices |
+		choices := OrderedCollection new: 2.
+		self shortForm ifNotNilDo: [ :it | choices add: it asParser ].
+		self longForm ifNotNilDo: [ :it | choices add: it asParser ].
 		parser := PPPredicateObjectParser
-					matching: choice
+					matching: (PPChoiceParser withAll: choices) token end
 					message: 'Option ' , self name , ' expected'.
 		parameter ifNotNil: [ parser := parser , parameter ].
 		parser ]
