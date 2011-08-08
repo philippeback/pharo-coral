@@ -1,4 +1,4 @@
-as yet unclassified
+accessing-documentation
 synopsis
 	"Typical patterns of invocation"
 	

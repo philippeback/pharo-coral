@@ -1,5 +1,5 @@
-as yet unclassified
+accessing
 aliases
 	"Synonyms or shortened versions of the main name"
 	
-	^ self shouldBeImplemented 
+	^ aliases

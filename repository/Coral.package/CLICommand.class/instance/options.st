@@ -1,5 +1,5 @@
-as yet unclassified
+accessing
 options
 	"Optional arguments and flags"
 
-	^ self shouldBeImplemented
+	^ options

@@ -1,12 +1,17 @@
 {
 	"category" : "Coral",
 	"classinstvars" : [
-		 ],
+		"subCommands" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"name",
+		"aliases",
+		"options",
+		"parameters",
+		"subCommands",
+		"parser" ],
 	"name" : "CLICommand",
 	"pools" : [
 		 ],

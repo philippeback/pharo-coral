@@ -1,5 +1,5 @@
-as yet unclassified
+accessing
 subCommands
 	"Sub-commands, coming after or in place of any positional parameters"
 	
-	^ self shouldBeImplemented
+	^ subCommands

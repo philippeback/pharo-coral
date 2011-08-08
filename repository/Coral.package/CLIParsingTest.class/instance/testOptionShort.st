@@ -5,4 +5,4 @@ testOptionShort
 	
 	self assert: self optionShort parse: #('-s') to: '-s'.
 	self assert: self optionShort fail: #('--s').
-	self assert: self optionShort end fail: #('-ss').
+	self assert: self optionShort fail: #('-ss').

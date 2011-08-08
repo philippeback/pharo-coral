@@ -1,5 +1,5 @@
-as yet unclassified
+accessing
 parameters
 	"Positional parameters"
 	
-	^ self shouldBeImplemented
+	^ parameters

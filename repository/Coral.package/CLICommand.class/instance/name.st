@@ -2,4 +2,4 @@ accessing
 name
 	"Canonic name"
 	
-	^ self shouldBeImplemented
+	^ name
