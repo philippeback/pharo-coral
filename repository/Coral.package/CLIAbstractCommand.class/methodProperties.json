@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"isAbstract" : "DamienPollet 8/9/2011 18:16" },
+	"instance" : {
+		"aliases" : "DamienPollet 8/9/2011 17:44",
+		"description" : "DamienPollet 8/9/2011 17:40",
+		"manual" : "DamienPollet 8/9/2011 17:40",
+		"name" : "DamienPollet 8/9/2011 17:18",
+		"options" : "DamienPollet 8/9/2011 17:44",
+		"parameters" : "DamienPollet 8/9/2011 17:44",
+		"parser" : "DamienPollet 8/9/2011 17:51",
+		"subcommands" : "DamienPollet 8/9/2011 17:51",
+		"summary" : "DamienPollet 8/9/2011 17:41",
+		"synopsis" : "DamienPollet 8/9/2011 17:50" } }

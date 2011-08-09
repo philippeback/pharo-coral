@@ -10,10 +10,9 @@
 		"aliases",
 		"options",
 		"parameters",
-		"subCommands",
-		"parser" ],
+		"subCommands" ],
 	"name" : "CLICommand",
 	"pools" : [
 		 ],
-	"super" : "CLITerm",
+	"super" : "CLIAbstractCommand",
 	"type" : "normal" }

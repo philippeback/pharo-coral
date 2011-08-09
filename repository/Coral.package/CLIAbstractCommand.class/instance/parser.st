@@ -4,7 +4,7 @@ parser
 	
 	^ parser ifNil: [ | cmd |
 		cmd := self aliases
-			inject: name asParser
+			inject: self name asParser
 			into: [ :p :each | p / each asParser ].
 		cmd := PPPredicateObjectParser
 					matching: cmd token end
@@ -13,7 +13,7 @@ parser
 			cmd := cmd , (PPChoiceParser withAll: opts) star ].
 		self parameters ifNotEmptyDo: [ :params |
 			cmd := cmd , (PPSequenceParser withAll: params) ].
-		 self subCommands ifNotEmptyDo: [ :subs |
+		 self subcommands ifNotEmptyDo: [ :subs |
 			cmd := cmd , (PPChoiceParser withAll: subs) ].
 		parser := cmd
 	]

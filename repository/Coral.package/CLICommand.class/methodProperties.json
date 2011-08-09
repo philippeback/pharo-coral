@@ -1,20 +1,16 @@
 {
 	"class" : {
+		"isAbstract" : "DamienPollet 8/9/2011 18:17",
 		"named:" : "DamienPollet 8/7/2011 23:53" },
 	"instance" : {
 		"aliases" : "DamienPollet 8/7/2011 23:50",
 		"aliases:" : "DamienPollet 8/7/2011 23:36",
-		"description" : "DamienPollet 8/4/2011 09:49",
 		"initialize" : "DamienPollet 8/8/2011 00:10",
-		"manual" : "DamienPollet 8/4/2011 10:08",
 		"name" : "DamienPollet 8/7/2011 23:52",
 		"options" : "DamienPollet 8/7/2011 23:50",
 		"options:" : "DamienPollet 8/7/2011 23:37",
 		"parameters" : "DamienPollet 8/7/2011 23:50",
 		"parameters:" : "DamienPollet 8/7/2011 23:39",
-		"parser" : "DamienPollet 8/8/2011 01:10",
 		"setName:" : "DamienPollet 8/7/2011 23:53",
-		"subCommands" : "DamienPollet 8/8/2011 00:16",
-		"subCommands:" : "DamienPollet 8/8/2011 00:59",
-		"summary" : "DamienPollet 8/4/2011 09:48",
-		"synopsis" : "DamienPollet 8/4/2011 09:48" } }
+		"subcommands" : "DamienPollet 8/9/2011 17:51",
+		"subcommands:" : "DamienPollet 8/9/2011 17:51" } }

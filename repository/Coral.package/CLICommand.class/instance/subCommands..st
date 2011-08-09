@@ -1,3 +1,3 @@
 initialization
-subCommands: aCollection
+subcommands: aCollection
 	subCommands := aCollection asArray

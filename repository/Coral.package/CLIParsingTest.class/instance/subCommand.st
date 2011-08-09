@@ -1,4 +1,4 @@
 fixtures
 subCommand
 	^ (CLICommand named: 'bar')
-		subCommands: { self command }
+		subcommands: { self command }

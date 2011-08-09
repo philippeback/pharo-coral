@@ -4,12 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "DamienPollet 8/9/2011 17:37",
 	"instvars" : [
 		"name",
-		"parser",
 		"isOptional",
-		"isMultiple" ],
+		"isMultiple",
+		"parser" ],
 	"name" : "CLIParameter",
 	"pools" : [
 		 ],

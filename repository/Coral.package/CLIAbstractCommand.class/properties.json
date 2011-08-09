@@ -4,13 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "DamienPollet 8/9/2011 17:34",
 	"instvars" : [
-		"short",
-		"long",
-		"parameter",
 		"parser" ],
-	"name" : "CLIOption",
+	"name" : "CLIAbstractCommand",
 	"pools" : [
 		 ],
 	"super" : "CLITerm",
