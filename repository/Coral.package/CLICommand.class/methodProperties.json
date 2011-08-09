@@ -5,6 +5,7 @@
 	"instance" : {
 		"aliases" : "DamienPollet 8/7/2011 23:50",
 		"aliases:" : "DamienPollet 8/7/2011 23:36",
+		"description:" : "DamienPollet 8/9/2011 23:21",
 		"initialize" : "DamienPollet 8/8/2011 00:10",
 		"name" : "DamienPollet 8/7/2011 23:52",
 		"options" : "DamienPollet 8/7/2011 23:50",
@@ -13,4 +14,5 @@
 		"parameters:" : "DamienPollet 8/7/2011 23:39",
 		"setName:" : "DamienPollet 8/7/2011 23:53",
 		"subcommands" : "DamienPollet 8/9/2011 17:51",
-		"subcommands:" : "DamienPollet 8/9/2011 17:51" } }
+		"subcommands:" : "DamienPollet 8/9/2011 17:51",
+		"summary:" : "DamienPollet 8/9/2011 23:20" } }
