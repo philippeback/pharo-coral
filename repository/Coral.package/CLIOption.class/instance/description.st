@@ -1,3 +1,3 @@
 accessing
 description
-	^ self shouldBeImplemented
+	^ description

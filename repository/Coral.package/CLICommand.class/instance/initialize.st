@@ -1,4 +1,7 @@
 initialization
 initialize
 	super initialize.
-	aliases := options := parameters := subCommands := #().
+	aliases := OrderedCollection new.
+	options := OrderedCollection new.
+	parameters := OrderedCollection new.
+	subcommands := OrderedCollection new.

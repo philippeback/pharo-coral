@@ -10,9 +10,10 @@
 		"aliases",
 		"options",
 		"parameters",
-		"subCommands",
 		"summary",
-		"description" ],
+		"description",
+		"subcommands",
+		"action" ],
 	"name" : "CLICommand",
 	"pools" : [
 		 ],

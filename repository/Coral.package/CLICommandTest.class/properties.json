@@ -6,9 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"dostuff" ],
+		"h",
+		"m",
+		"s",
+		"command" ],
 	"name" : "CLICommandTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "PPAbstractParserTest",
 	"type" : "normal" }

@@ -9,7 +9,9 @@
 		"short",
 		"long",
 		"parameter",
-		"parser" ],
+		"parser",
+		"description",
+		"action" ],
 	"name" : "CLIOption",
 	"pools" : [
 		 ],
