@@ -1,3 +1,3 @@
 fixtures
 any
-	^ CLIParameter any name: 'something'
+	^ CLIParameterParser any name: 'something'

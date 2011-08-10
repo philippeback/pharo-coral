@@ -1,21 +1,5 @@
 {
 	"class" : {
-		"isAbstract" : "DamienPollet 8/9/2011 18:17",
-		"named:" : "DamienPollet 8/7/2011 23:53" },
+		"from:options:parameters:subcommand:" : "DamienPollet 8/10/2011 19:25" },
 	"instance" : {
-		"addOption:" : "DamienPollet 8/10/2011 16:15",
-		"aliases" : "DamienPollet 8/7/2011 23:50",
-		"aliases:" : "DamienPollet 8/7/2011 23:36",
-		"description:" : "DamienPollet 8/9/2011 23:21",
-		"do:" : "DamienPollet 8/10/2011 16:28",
-		"initialize" : "DamienPollet 8/10/2011 16:15",
-		"name" : "DamienPollet 8/7/2011 23:52",
-		"option" : "DamienPollet 8/10/2011 16:15",
-		"options" : "DamienPollet 8/7/2011 23:50",
-		"options:" : "DamienPollet 8/10/2011 16:13",
-		"parameters" : "DamienPollet 8/7/2011 23:50",
-		"parameters:" : "DamienPollet 8/7/2011 23:39",
-		"setName:" : "DamienPollet 8/7/2011 23:53",
-		"subcommands" : "DamienPollet 8/10/2011 16:15",
-		"subcommands:" : "DamienPollet 8/10/2011 16:15",
-		"summary:" : "DamienPollet 8/9/2011 23:20" } }
+		"initializeWith:options:parameters:subcommand:" : "DamienPollet 8/10/2011 19:29" } }

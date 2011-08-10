@@ -1,0 +1,14 @@
+{
+	"category" : "Coral",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CLIParser",
+	"pools" : [
+		 ],
+	"super" : "PPParser",
+	"type" : "normal" }

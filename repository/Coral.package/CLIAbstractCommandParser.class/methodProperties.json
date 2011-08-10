@@ -1,15 +1,19 @@
 {
 	"class" : {
-		"isAbstract" : "DamienPollet 8/9/2011 18:16" },
+		"isAbstract" : "DamienPollet 8/10/2011 18:41" },
 	"instance" : {
 		"aliases" : "DamienPollet 8/9/2011 17:44",
+		"captureOptions:parameters:subcommand:" : "DamienPollet 8/10/2011 19:27",
 		"description" : "DamienPollet 8/9/2011 17:40",
 		"manual" : "DamienPollet 8/9/2011 17:40",
 		"name" : "DamienPollet 8/9/2011 17:18",
 		"options" : "DamienPollet 8/9/2011 17:44",
+		"optionsParser" : "DamienPollet 8/10/2011 19:16",
 		"parameters" : "DamienPollet 8/9/2011 17:44",
-		"parser" : "DamienPollet 8/10/2011 17:06",
+		"parametersParser" : "DamienPollet 8/10/2011 19:17",
+		"parser" : "DamienPollet 8/10/2011 19:20",
 		"runOn:in:" : "DamienPollet 8/10/2011 18:03",
+		"subcommandParser" : "DamienPollet 8/10/2011 19:20",
 		"subcommands" : "DamienPollet 8/9/2011 17:51",
 		"summary" : "DamienPollet 8/9/2011 17:41",
 		"synopsis" : "DamienPollet 8/9/2011 17:50" } }

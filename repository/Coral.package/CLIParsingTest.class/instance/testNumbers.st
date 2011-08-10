@@ -2,9 +2,9 @@ tests-parameters
 testNumbers
 	| numbers |
 	numbers := #('123' '42' '-12' '3.14').
-	self assert: (CLIParameter integer) star
+	self assert: (CLIParameterParser integer) star
 		parse: numbers to: #(123 42) end: 2.
-	self assert: (CLIParameter relativeInteger) star
+	self assert: (CLIParameterParser relativeInteger) star
 		parse: numbers to: #(123 42 -12) end: 3.
-	self assert: (CLIParameter number) star
+	self assert: (CLIParameterParser number) star
 		parse: numbers to: #(123 42 -12 3.14).

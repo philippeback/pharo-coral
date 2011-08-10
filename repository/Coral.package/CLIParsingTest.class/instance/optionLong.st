@@ -1,4 +1,4 @@
 fixtures
 optionLong
-	^ CLIOption new
+	^ CLIOptionParser new
 		long: 'long'

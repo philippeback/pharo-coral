@@ -1,4 +1,4 @@
 fixtures
 optionShort
-	^ CLIOption new
+	^ CLIOptionParser new
 		short: $s

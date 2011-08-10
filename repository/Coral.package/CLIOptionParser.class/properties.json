@@ -6,9 +6,14 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "CLITerm",
+		"short",
+		"long",
+		"parameter",
+		"parser",
+		"description",
+		"action" ],
+	"name" : "CLIOptionParser",
 	"pools" : [
 		 ],
-	"super" : "PPParser",
+	"super" : "CLIParser",
 	"type" : "normal" }

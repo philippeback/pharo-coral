@@ -1,10 +1,13 @@
 tests-options
 testOptionArguments
-	self
-		assert: (self optionShort parameter: self any)
-		parse: #('-s' '42' '51' '1337')
-		to: #('-s' '42') end: 2.
-	self
-		assert: (self optionShort parameter: self anyOf , self anyOf)
-		parse: #('-s' 'up' 'left' '1337') to: #('-s' ('up' 'left')) end: 3.
+	| p |
+	p := optionShort parameter: any.
+	self assert: p parse: #('-s' '42' '51' '1337')
+		to: (p capture: '42')
+		end: 2.
+	
+	p := optionShort parameter: anyOf , anyOf.
+	self assert: p parse: #('-s' 'up' 'left' '1337')
+		to: (CLIOption from: p parameter: #('up' 'left'))
+		end: 3.
 	

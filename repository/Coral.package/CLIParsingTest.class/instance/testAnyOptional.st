@@ -1,10 +1,12 @@
 tests-parameters
 testAnyOptional
-	self assert: self any optional parse: #('abc') to: 'abc'.
-	self assert: self any optional parse: #('123') to: '123'.
-	self assert: self any optional parse: #('x & ;') to: 'x & ;'.
-	self assert: self any optional parse: #('') to: ''.
+	| p |
+	p := any optional.
+	self assert: p parse: #('abc') to: 'abc'.
+	self assert: p parse: #('123') to: '123'.
+	self assert: p parse: #('x & ;') to: 'x & ;'.
+	self assert: p parse: #('') to: ''.
 	
-	self assert: self any optional parse: #('123' 'abc') end: 1.
+	self assert: p parse: #('123' 'abc') end: 1.
 	
-	self assert: self any optional parse: #() to: nil.
+	self assert: p parse: #() to: nil.

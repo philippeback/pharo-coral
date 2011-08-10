@@ -1,3 +1,5 @@
 tests-parameters
 testAnyOfPlus
-	self assert: self anyOf plus parse: #('down' 'right' 'incorrect' 'left') to: #('down' 'right') end: 2.
+	| p |
+	p := anyOf plus.
+	self assert: p parse: #('down' 'right' 'incorrect' 'left') to: #('down' 'right') end: 2.

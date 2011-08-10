@@ -2,12 +2,13 @@ running
 setUp
 	super setUp.
 	
-	"flag := CommandLineFlag new
-		description: 'Play the xylophone';
-		name: 'xylophone';
-		short: $x.
-	option := CommandLineOption new
-		description: 'Miraculously guess what to do with the argument';
-		name: 'oops';
-		short: $o;
-		argumentParser: #word asParser plus"
+	any := self any.
+	anyPlus := self any plus.
+	anyStar := self any star.
+	
+	anyOf := self anyOf.
+	command := self command.
+	optionBoth := self optionBoth.
+	optionLong := self optionLong.
+	optionShort := self optionShort.
+	subcommand := self subcommand

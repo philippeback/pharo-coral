@@ -6,14 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"short",
-		"long",
-		"parameter",
-		"parser",
-		"description",
-		"action" ],
+		"specification",
+		"parameters" ],
 	"name" : "CLIOption",
 	"pools" : [
 		 ],
-	"super" : "CLITerm",
+	"super" : "Object",
 	"type" : "normal" }

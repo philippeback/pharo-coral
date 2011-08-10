@@ -1,10 +1,10 @@
 tests-parameters
 testAny
-	self assert: self any parse: #('abc') to: 'abc'.
-	self assert: self any parse: #('123') to: '123'.
-	self assert: self any parse: #('x & ;') to: 'x & ;'.
-	self assert: self any parse: #('') to: ''.
+	self assert: any parse: #('abc') to: 'abc'.
+	self assert: any parse: #('123') to: '123'.
+	self assert: any parse: #('x & ;') to: 'x & ;'.
+	self assert: any parse: #('') to: ''.
 	
-	self assert: self any parse: #('123' 'abc') end: 1.
+	self assert: any parse: #('123' 'abc') end: 1.
 	
-	self assert: self any fail: #().
+	self assert: any fail: #().

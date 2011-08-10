@@ -6,8 +6,15 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"flag",
-		"option" ],
+		"any",
+		"anyOf",
+		"command",
+		"optionBoth",
+		"optionLong",
+		"optionShort",
+		"subcommand",
+		"anyPlus",
+		"anyStar" ],
 	"name" : "CLIParsingTest",
 	"pools" : [
 		 ],

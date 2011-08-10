@@ -1,4 +1,4 @@
 tests-parameters
 testParameterNames
-	self assert: self any name = 'something'.
-	self assert: self anyOf name = 'direction'.
+	self assert: any name = 'something'.
+	self assert: anyOf name = 'direction'.

@@ -10,8 +10,8 @@
 		"isOptional",
 		"isMultiple",
 		"parser" ],
-	"name" : "CLIParameter",
+	"name" : "CLIParameterParser",
 	"pools" : [
 		 ],
-	"super" : "CLITerm",
+	"super" : "CLIParser",
 	"type" : "normal" }

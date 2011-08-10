@@ -1,7 +1,7 @@
 tests-parameters
 testBool
-	self assert: (CLIParameter boolean) fail: #('falsely').
+	self assert: (CLIParameterParser boolean) fail: #('falsely').
 	self
-		assert: (CLIParameter boolean) star
+		assert: (CLIParameterParser boolean) star
 		parse: #('true' 'false' 'yes' 'no' 'No' 'NO')
 		to: #(true false true false false false)

@@ -7,5 +7,7 @@ parser
 		parser := PPPredicateObjectParser
 					matching: (PPChoiceParser withAll: choices) token end
 					message: 'Option ' , self name , ' expected'.
-		parameter ifNotNil: [ parser := parser , parameter ].
-		parser ]
+		parser := parameter isNil
+			ifTrue: [ parser ==> [:node | self capture ] ]
+			ifFalse: [ parser , parameter ==> [:nodes | self capture: nodes allButFirst ] ]
+	]

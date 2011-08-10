@@ -3,7 +3,7 @@ setUp
 	"example taken from http://rubydoc.info/gems/cri/2.0.2/file/README.md"
 	environment := CLIEnvironment in: nil out: String new writeStream err: String new writeStream.
 	
-	command := (CLICommand named: 'dostuff')
+	command := (CLICommandParser named: 'dostuff')
 		aliases: #('ds' 'stuff');
 		summary: 'does stuff';
 		description: 'This command does a lot of stuff. I really mean a lot.'.

@@ -1,5 +1,5 @@
 fixtures
 optionBoth
-	^ CLIOption new
+	^ CLIOptionParser new
 		short: $b;
 		long: 'both'

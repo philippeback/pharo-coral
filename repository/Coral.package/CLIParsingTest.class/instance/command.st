@@ -1,6 +1,6 @@
 fixtures
 command
-	^ (CLICommand named: 'foo')
+	^ (CLICommandParser named: 'foo')
 		aliases: #('fu' 'f');
 		options: {
 			self optionBoth parameter: self anyOf.

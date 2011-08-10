@@ -1,21 +1,17 @@
 {
 	"category" : "Coral",
 	"classinstvars" : [
-		"subCommands" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"name",
-		"aliases",
+		"specification",
 		"options",
 		"parameters",
-		"summary",
-		"description",
-		"subcommands",
-		"action" ],
+		"subcommand" ],
 	"name" : "CLICommand",
 	"pools" : [
 		 ],
-	"super" : "CLIAbstractCommand",
+	"super" : "Object",
 	"type" : "normal" }
