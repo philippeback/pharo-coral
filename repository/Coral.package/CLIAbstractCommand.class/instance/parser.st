@@ -15,5 +15,5 @@ parser
 			cmd := cmd , (PPSequenceParser withAll: params) ].
 		 self subcommands ifNotEmptyDo: [ :subs |
 			cmd := cmd , (PPChoiceParser withAll: subs) ].
-		parser := cmd
+		parser := cmd end
 	]
