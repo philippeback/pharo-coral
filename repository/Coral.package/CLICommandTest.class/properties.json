@@ -9,7 +9,8 @@
 		"h",
 		"m",
 		"s",
-		"command" ],
+		"command",
+		"environment" ],
 	"name" : "CLICommandTest",
 	"pools" : [
 		 ],

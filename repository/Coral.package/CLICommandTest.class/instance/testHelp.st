@@ -1,4 +1,4 @@
-running
+tests-parsing
 testHelp
 	self assert: command parse: #('dostuff' '-h').
 	self assert: command parse: #('dostuff' '--help').

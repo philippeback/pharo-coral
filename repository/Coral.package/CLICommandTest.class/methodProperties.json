@@ -2,6 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "DamienPollet 8/10/2011 16:33",
+		"setUp" : "DamienPollet 8/10/2011 17:57",
 		"testAlone" : "DamienPollet 8/10/2011 16:35",
-		"testHelp" : "DamienPollet 8/10/2011 17:19" } }
+		"testHelp" : "DamienPollet 8/10/2011 17:19",
+		"testMore" : "DamienPollet 8/10/2011 17:20",
+		"testMoreStuff" : "DamienPollet 8/10/2011 17:32",
+		"testRun" : "DamienPollet 8/10/2011 17:55",
+		"testRunMore" : "DamienPollet 8/10/2011 17:55",
+		"testStuff" : "DamienPollet 8/10/2011 17:22" } }
