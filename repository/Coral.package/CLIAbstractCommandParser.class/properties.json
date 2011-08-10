@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "DamienPollet 8/9/2011 17:34",
 	"instvars" : [
-		"parser" ],
+		 ],
 	"name" : "CLIAbstractCommandParser",
 	"pools" : [
 		 ],

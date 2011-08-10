@@ -5,4 +5,5 @@ short: aStringOrCharacter
 	name size ~= 1 ifTrue: [ CLIInvalidSpec signal: 'Short form must be a single character' ].
 	name := name first.
 	name = $- ifTrue: [ CLIInvalidSpec signal: 'Short form option cannot be --' ].
-	short := name
+	short := name.
+	self resetParser.

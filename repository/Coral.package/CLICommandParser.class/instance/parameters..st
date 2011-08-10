@@ -1,4 +1,5 @@
 initialization
 parameters: aCollection
-	parameters := aCollection asArray
+	parameters := aCollection asArray.
+	self resetParser.
 	

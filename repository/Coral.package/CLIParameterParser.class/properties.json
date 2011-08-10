@@ -8,8 +8,7 @@
 	"instvars" : [
 		"name",
 		"isOptional",
-		"isMultiple",
-		"parser" ],
+		"isMultiple" ],
 	"name" : "CLIParameterParser",
 	"pools" : [
 		 ],

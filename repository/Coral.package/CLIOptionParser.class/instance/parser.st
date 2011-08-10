@@ -9,5 +9,5 @@ parser
 					message: 'Option ' , self name , ' expected'.
 		parser := parameter isNil
 			ifTrue: [ parser ==> [:node | self capture ] ]
-			ifFalse: [ parser , parameter ==> [:nodes | self capture: nodes allButFirst ] ]
+			ifFalse: [ parser , parameter ==> [:nodes | self capture: nodes second ] ]
 	]

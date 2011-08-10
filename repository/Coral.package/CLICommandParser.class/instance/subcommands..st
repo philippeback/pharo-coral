@@ -1,3 +1,4 @@
 initialization
 subcommands: aCollection
-	subcommands := aCollection asArray
+	subcommands := aCollection asArray.
+	self resetParser.
