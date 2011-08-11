@@ -3,6 +3,7 @@ version03: spec
 	<version: '0.3' imports: #('0.3-baseline')>
 
 	spec for: #'common' do: [
+		spec blessing: #development.
 		spec 
 			package: 'Filesystem' with: 'Filesystem-DamienPollet.114';
 			package: 'OSProcess' with: 'OSProcess-dtl.59';

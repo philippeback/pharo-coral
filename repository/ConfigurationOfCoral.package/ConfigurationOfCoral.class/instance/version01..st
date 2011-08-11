@@ -1,7 +1,8 @@
 versions
 version01: spec 
 	<version: '0.1'>
-	spec for: #common do: [ 
+	spec for: #common do: [
+		spec blessing: #development.
 			spec repository: 'http://source.wiresong.ca/mc'. 
 			spec package: 'Filesystem'.
 				

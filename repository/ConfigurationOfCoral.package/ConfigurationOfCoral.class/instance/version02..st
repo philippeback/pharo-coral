@@ -2,7 +2,8 @@ versions
 version02: spec 
 	<version: '0.2'>
 	"trying to load latest AST and petitParser/petitSmalltalk"
-	spec for: #common do: [ 
+	spec for: #common do: [
+		spec blessing: #development.
 			spec repository: 'http://source.wiresong.ca/mc'. 
 			spec package: 'Filesystem'.
 				
