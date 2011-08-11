@@ -16,8 +16,7 @@ baseline04: spec
 		spec project: 'PetitParser' with: [
 			spec repository: 'http://source.lukas-renggli.ch/petit';
 				className: 'ConfigurationOfPetitParser';
-				versionString: '1.2-baseline';
-				loads: #('Core' 'PetitSmalltalk') ].
+				loads: #('Core' 'PetitTests' 'PetitSmalltalk') ].
 		
 		spec
 			package:  'Coral' with: [
