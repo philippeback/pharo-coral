@@ -1,7 +1,13 @@
 tests-parsing
 testMoreStuff
-	self assert: command parse: #('dostuff' '-m' '-s' 'foo').
-	self assert: command parse: #('dostuff' '-m' '--stuff' 'foo').
+	| cmd |
+	cmd := self assert: command parse: #('dostuff' '-m' '-s' 'foo').
+	self assert: (cmd hasOptionNamed: #more).
+	self assert: 'foo' equals: (cmd atOptionNamed: #stuff).
+
+	cmd := self assert: command parse: #('dostuff' '-m' '--stuff' 'foo').
+	self assert: (cmd hasOptionNamed: #more).
+	self assert: 'foo' equals: (cmd atOptionNamed: #stuff).
 
 	self assert: command fail:  #('dostuff' '-m' '-stuff' 'foo').
 	self assert: command fail:  #('dostuff' '-m' '--s' 'foo').

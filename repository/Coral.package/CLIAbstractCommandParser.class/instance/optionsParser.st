@@ -1,3 +1,5 @@
 parsing
 optionsParser
-	^ self options ifEmpty: [ nil asParser ] ifNotEmptyDo: [ :opts | (PPChoiceParser withAll: opts) star ]
+	^ self options
+		ifEmpty: [ nil asParser ]
+		ifNotEmptyDo: [ :opts | (PPChoiceParser withAll: opts) star ]

@@ -9,7 +9,9 @@
 		"specification",
 		"options",
 		"parameters",
-		"subcommand" ],
+		"subcommand",
+		"environment",
+		"exitStatus" ],
 	"name" : "CLICommand",
 	"pools" : [
 		 ],

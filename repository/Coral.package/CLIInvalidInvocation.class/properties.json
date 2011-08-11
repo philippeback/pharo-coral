@@ -1,0 +1,14 @@
+{
+	"category" : "Coral",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CLIInvalidInvocation",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

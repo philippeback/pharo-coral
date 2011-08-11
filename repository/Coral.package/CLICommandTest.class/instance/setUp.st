@@ -21,8 +21,8 @@ setUp
 		 description: 'specify stuff to do'.
 	
 	command do: [ :cmd | |stuff|
-		stuff := (cmd atOptionNamed: #stuff) ifNil: [ 'generic stuff' ].
-		cmd << 'Doing ' , stuff , '!'.
+		stuff := cmd atOptionNamed: #stuff ifNone: [ 'generic stuff' ].
+		cmd << 'Doing ' << stuff << '!'; cr.
 		(cmd hasOptionNamed: #more)
-			ifTrue: [ cmd << 'Doing it even more!' ]
+			ifTrue: [ cmd << 'Doing it even more!'; cr ]
 	]

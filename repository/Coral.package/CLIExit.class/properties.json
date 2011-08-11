@@ -1,0 +1,14 @@
+{
+	"category" : "Coral",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"exitStatus" ],
+	"name" : "CLIExit",
+	"pools" : [
+		 ],
+	"super" : "Exception",
+	"type" : "normal" }

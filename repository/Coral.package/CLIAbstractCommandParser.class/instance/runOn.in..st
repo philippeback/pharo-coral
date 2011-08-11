@@ -1,3 +1,3 @@
 running
 runOn: argvArray in: environment 
-	(self parse: argvArray) runIn: environment
+	^ (self on: argvArray in: environment) run

@@ -1,3 +1,5 @@
 parsing
 subcommandParser
-	^ self subcommands ifEmpty: [ nil asParser ] ifNotEmptyDo: [ :subs | PPChoiceParser withAll: subs ]
+	^ self subcommands
+		ifEmpty: [ nil asParser ]
+		ifNotEmptyDo: [ :subs | PPChoiceParser withAll: subs ]

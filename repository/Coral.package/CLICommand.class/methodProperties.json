@@ -2,4 +2,21 @@
 	"class" : {
 		"from:options:parameters:subcommand:" : "DamienPollet 8/10/2011 19:25" },
 	"instance" : {
-		"initializeWith:options:parameters:subcommand:" : "DamienPollet 8/10/2011 19:29" } }
+		"<<" : "DamienPollet 8/11/2011 01:18",
+		"atOption:" : "DamienPollet 8/11/2011 03:11",
+		"atOption:ifNone:" : "DamienPollet 8/11/2011 03:16",
+		"atOptionNamed:" : "DamienPollet 8/11/2011 01:15",
+		"atOptionNamed:ifNone:" : "DamienPollet 8/11/2011 03:17",
+		"cr" : "DamienPollet 8/11/2011 03:18",
+		"environment:" : "DamienPollet 8/11/2011 00:03",
+		"err" : "DamienPollet 8/11/2011 03:28",
+		"exitStatus:" : "DamienPollet 8/11/2011 03:46",
+		"exitSuccess" : "DamienPollet 8/11/2011 03:47",
+		"hasOptionNamed:" : "DamienPollet 8/11/2011 01:26",
+		"help" : "DamienPollet 8/11/2011 03:29",
+		"initializeWith:options:parameters:subcommand:" : "DamienPollet 8/10/2011 19:29",
+		"options" : "DamienPollet 8/11/2011 01:54",
+		"parameters" : "DamienPollet 8/11/2011 01:54",
+		"run" : "DamienPollet 8/11/2011 04:06",
+		"signalExit:" : "DamienPollet 8/11/2011 03:53",
+		"subcommand" : "DamienPollet 8/11/2011 01:54" } }
