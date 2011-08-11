@@ -1,4 +1,4 @@
 output
 cr 
 	
-	^OSProcess thisOSProcess newLineInConsole
+	self << String cr

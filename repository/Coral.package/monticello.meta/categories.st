@@ -1,3 +1,3 @@
 SystemOrganization addCategory: #Coral!
-SystemOrganization addCategory: #'Coral-Tests'!
 SystemOrganization addCategory: #'Coral-Commandline'!
+SystemOrganization addCategory: #'Coral-Tests'!

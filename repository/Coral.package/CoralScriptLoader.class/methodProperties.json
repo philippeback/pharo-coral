@@ -1,6 +1,8 @@
 {
 	"class" : {
 		"initialize" : "AdrienBarreau 5/10/2011 21:41",
-		"startUp" : "OlivierAuverlot 12/27/2010 20:51" },
+		"runConsole" : "DamienPollet 8/11/2011 22:00",
+		"runScript" : "DamienPollet 8/11/2011 22:45",
+		"startUp" : "DamienPollet 8/11/2011 22:01" },
 	"instance" : {
 		 } }
