@@ -1,5 +1,5 @@
 {
-	"category" : "Coral",
+	"category" : "Coral-Commandline",
 	"classinstvars" : [
 		"subCommands" ],
 	"classvars" : [
