@@ -16,7 +16,7 @@ baseline04: spec
 		spec project: 'PetitParser' with: [
 			spec repository: 'http://source.lukas-renggli.ch/petit';
 				className: 'ConfigurationOfPetitParser';
-				versionString: #bleedingEdge
+				versionString: #bleedingEdge;
 				loads: #('Core' 'PetitTests' 'PetitSmalltalk') ].
 		
 		spec
