@@ -1,0 +1,42 @@
+data
+edinburghLogo
+	^ self colorize: '
+                                                       YYYY
+                                                 RRRRRYYYYYYYBBBBC
+                                              PPRRRRRYYYYYYYYBBBBBCCC
+                                             PPRRRRRRYYYYYYYYYBBBBBCCC
+                                            PPPRRRRRRYYYYYYYYYBBBBBCCCC
+                                            PPPRRRRRRYYYYYYYYYBBBBBCCCC
+                                            PPPRRRRRRYYYYYYYYBBBBBBCCCC
+                                            PPPPRRRRRYYYYYYYYBBBBBBCCCC
+                                             PPPRRRRRRYYYYYYYBBBBBCCCC
+                                              PPPRRRRRYYYYYYYBBBBBCCC
+                                               PPPRRRRYYYYYYBBBBBCCC
+                                                PPPRRRRYYYYYBBBBCCC
+                                                 PPPRRRYYYYYBBBCC
+                                                   PPRRYYYYBBBCC
+                                                    PPRRYYYBBC
+                                                     PRRYYYBC
+
+                                                       B B B
+                             BBB  BBB                  B B B
+                        BBB  BBB  BBB  BBB
+                         BBBBBBBBBBBBBBBB
+     BBB  BBB             BBBBBBBBBBBBBB             BBB  BBB
+BBB  BBB  BBB  BBB         BBBBBBBBBBBB         BBB  BBB  BBB  BBB
+ BBBBBBBBBBBBBBBB          BBBBBBBBBBBB          BBBBBBBBBBBBBBBB
+  BBBBBBBBBBBBBB           BBBBBBBBBBBB           BBBBBBBBBBBBBB
+   BBBBBBBBBBBB  BBB  BBB  BBBBBBBBBBBB  BBB  BBB  BBBBBBBBBBBB
+   BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+   BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+   BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+   BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+   BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+   BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+  BBBBBBBBBBBBBBBBBBBBBBBBBBBB      BBBBBBBBBBBBBBBBBBBBBBBBBBBB
+  BBBBBBBBBBBBBBBBBBBBBBBBBB          BBBBBBBBBBBBBBBBBBBBBBBBBB
+ BBBBBBBBBBBBBBBBBBBBBBBBBBB          BBBBBBBBBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBBBBBBBBB          BBBBBBBBBBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBBBBBBBBB          BBBBBBBBBBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBBBBBBBBB          BBBBBBBBBBBBBBBBBBBBBBBBBBBB
+' withUnixLineEndings

@@ -1,0 +1,14 @@
+{
+	"category" : "Coral-Examples-Esug2011",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Ansi",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Coral-Examples-Esug2011",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"colorizeMap" ],
+	"name" : "CoralEsug2011Talk",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
