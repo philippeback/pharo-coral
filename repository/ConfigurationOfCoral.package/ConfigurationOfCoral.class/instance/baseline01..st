@@ -26,14 +26,13 @@ baseline01: spec
 
 		spec
 			package: 'Coral-Core' with: [
-				spec requires: #('PetitParser' 'OSProcess' ). ];
+				spec requires: #('PetitParser' 'OSProcess') ];
 			package: 'Coral-Utilities' with: [
-				spec requires: #('Filesystem' 'OSProcess' ). ];
+				spec requires: #('Filesystem' 'OSProcess') ];
 			package: 'Coral-Commandline' with: [
-				spec requires: #('PetitParser' ). ];
+				spec requires: #('PetitParser') ];
 			package: 'Coral-Tests' with: [
-				spec requires: #('Coral-Core' 'Coral-Commandline' ). ].
+				spec requires: #('Coral-Core' 'Coral-Commandline') ].
 		
 		spec
-			group: 'default' with: #('Coral-Core' 'Coral-Utilities' 'Coral-Commandline' );
-			group: 'tests' with: #('Coral-Tests' 'OSProcess-Tests'). ].
+			group: 'default' with: #('Coral-Core' 'Coral-Utilities' 'Coral-Commandline' 'Coral-Tests') ]
