@@ -1,0 +1,28 @@
+{
+	"class" : {
+		"packageNamesUnderTest" : "DamienPollet 8/7/2011 13:26" },
+	"instance" : {
+		"any" : "DamienPollet 8/10/2011 18:42",
+		"anyOf" : "DamienPollet 8/10/2011 18:42",
+		"command" : "DamienPollet 8/10/2011 18:34",
+		"optionBoth" : "DamienPollet 8/10/2011 18:34",
+		"optionLong" : "DamienPollet 8/10/2011 18:34",
+		"optionShort" : "DamienPollet 8/10/2011 18:34",
+		"setUp" : "DamienPollet 8/10/2011 20:18",
+		"subcommand" : "DamienPollet 8/10/2011 18:34",
+		"testAny" : "DamienPollet 8/10/2011 20:19",
+		"testAnyDashes" : "DamienPollet 8/10/2011 20:06",
+		"testAnyOf" : "DamienPollet 8/10/2011 19:56",
+		"testAnyOfPlus" : "DamienPollet 8/10/2011 19:58",
+		"testAnyOptional" : "DamienPollet 8/10/2011 19:57",
+		"testAnyPlus" : "DamienPollet 8/10/2011 20:01",
+		"testAnyStar" : "DamienPollet 8/10/2011 20:01",
+		"testBool" : "DamienPollet 8/10/2011 18:42",
+		"testCommand" : "DamienPollet 8/10/2011 20:02",
+		"testNumbers" : "DamienPollet 8/10/2011 18:42",
+		"testOptionArguments" : "DamienPollet 8/10/2011 20:34",
+		"testOptionLong" : "DamienPollet 8/10/2011 20:02",
+		"testOptionNames" : "DamienPollet 8/11/2011 01:07",
+		"testOptionShort" : "DamienPollet 8/10/2011 20:09",
+		"testParameterNames" : "DamienPollet 8/10/2011 20:03",
+		"testSubcommand" : "DamienPollet 8/10/2011 20:03" } }

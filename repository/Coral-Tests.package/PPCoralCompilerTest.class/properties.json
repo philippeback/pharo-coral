@@ -1,0 +1,14 @@
+{
+	"category" : "Coral-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PPCoralCompilerTest",
+	"pools" : [
+		 ],
+	"super" : "PPCoralGrammarTest",
+	"type" : "normal" }
