@@ -5,4 +5,4 @@ loadDevelopment
 	"self loadDevelopment"
 
 	<apiDocumentation>
-	^(self project version: #development) load
+	^(self project version: #development) load: #('default' 'tests')

@@ -5,4 +5,4 @@ loadBleedingEdge
 	"self loadBleedingEdge"
 
 	<apiDocumentation>
-	^(self project version: #bleedingEdge) load
+	^(self project version: #bleedingEdge) load: #('default' 'tests')

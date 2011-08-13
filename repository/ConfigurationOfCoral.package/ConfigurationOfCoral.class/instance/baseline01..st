@@ -33,6 +33,7 @@ baseline01: spec
 				spec requires: #('PetitParser' ). ];
 			package: 'Coral-Tests' with: [
 				spec requires: #('Coral-Core' 'Coral-Commandline' ). ].
+		
 		spec
 			group: 'default' with: #('Coral-Core' 'Coral-Utilities' 'Coral-Commandline' );
 			group: 'tests' with: #('Coral-Tests' 'OSProcess-Tests'). ].
