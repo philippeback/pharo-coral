@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		"LastVersionLoad" ],
-	"commentStamp" : "DamienPollet 8/13/2011 01:44",
+	"commentStamp" : "DamienPollet 8/7/2011 22:03",
 	"instvars" : [
 		"project" ],
-	"name" : "ConfigurationOfCoral",
+	"name" : "OldConfigurationOfCoral",
 	"pools" : [
 		 ],
 	"super" : "Object",

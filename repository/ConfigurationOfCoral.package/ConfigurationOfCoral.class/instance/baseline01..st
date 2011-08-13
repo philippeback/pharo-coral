@@ -1,46 +1,38 @@
-versions
-baseline01: spec 
+baselines
+baseline01: spec
 	<version: '0.1-baseline'>
-	spec for: #common do: [ 
-			spec blessing: #baseline.
-			
-			spec package: 'Filesystem' with: [
-				spec repository: 'http://source.wiresong.ca/mc'. 	
-			].
-				
-			spec package: 'AST-Core' with: [
-				spec repository: 'http://www.squeaksource.com/rb'. 
-			].
-			
-			spec package: 'OSProcess' with: [
-				spec repository: 'http://www.squeaksource.com/OSProcess'. 
-			].
-			
-			spec package: 'OSProcess-Tests' with: [
-				spec repository: 'http://www.squeaksource.com/OSProcess';
-					requires: 'OSProcess'
-			].
-	
-			spec repository: 'http://source.lukas-renggli.ch/petit'.
-			
-			spec package: 'PetitParser' with: [
-				spec requires: #('AST-Core') 
-			].	
-			
-			spec package: 'PetitSmalltalk' with: [
-				spec requires: #('PetitParser') 
-			].
+
+	spec for: #'common' do: [
+		spec blessing: #'baseline'.
+		spec repository: 'http://www.squeaksource.com/Coral'.
 		
-			spec package: 'PetitTest' with: [
-				spec requires: #('PetitParser') 
-			].
-			
-			spec repository: 'http://www.squeaksource.com/Coral'.
-			spec package:  'Coral' with: [
-				spec requires: #( 'Filesystem' 'OSProcess' 'PetitSmalltalk' )	
-			].
-		
-			spec
-				group: 'default' with: #('Coral' );
-				group: 'tests' with: #( 'Coral' 'PetitTest' 'OSProcess-Tests' ).
-		]
+		spec
+			project: 'Filesystem' with: [
+				spec
+					className: 'ConfigurationOfFilesystem';
+					versionString: #bleedingEdge;
+					repository: 'http://www.squeaksource.com/fs' ];
+			project: 'OSProcess' with: [
+				spec
+					className: 'ConfigurationOfOSProcess';
+					versionString: #stable;
+					repository: 'http://www.squeaksource.com/MetacelloRepository' ];
+			project: 'PetitParser' with: [
+				spec
+					className: 'ConfigurationOfPetitParser';
+					versionString: #bleedingEdge;
+					loads: #('Core' 'Tests' 'PetitSmalltalk');
+					repository: 'http://source.lukas-renggli.ch/petit' ].
+
+		spec
+			package: 'Coral-Core' with: [
+				spec requires: #('PetitParser' 'OSProcess' ). ];
+			package: 'Coral-Utilities' with: [
+				spec requires: #('Filesystem' 'OSProcess' ). ];
+			package: 'Coral-Commandline' with: [
+				spec requires: #('PetitParser' ). ];
+			package: 'Coral-Tests' with: [
+				spec requires: #('Coral-Core' 'Coral-Commandline' ). ].
+		spec
+			group: 'default' with: #('Coral-Core' 'Coral-Utilities' 'Coral-Commandline' );
+			group: 'tests' with: #('Coral-Tests' 'OSProcess-Tests'). ].
