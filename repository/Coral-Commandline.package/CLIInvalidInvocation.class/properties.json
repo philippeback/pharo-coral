@@ -1,0 +1,14 @@
+{
+	"category" : "Coral-Commandline",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CLIInvalidInvocation",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Coral-Commandline",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parser" ],
+	"name" : "CLIParser",
+	"pools" : [
+		 ],
+	"super" : "PPParser",
+	"type" : "normal" }
