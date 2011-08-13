@@ -1,0 +1,14 @@
+{
+	"category" : "Coral-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DamienPollet 7/28/2011 16:05",
+	"instvars" : [
+		 ],
+	"name" : "CoralScriptExamples",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
