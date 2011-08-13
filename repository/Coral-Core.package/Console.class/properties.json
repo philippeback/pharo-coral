@@ -1,0 +1,15 @@
+{
+	"category" : "Coral-Core",
+	"classinstvars" : [
+		"prompt",
+		"history" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DamienPollet 7/28/2011 16:03",
+	"instvars" : [
+		 ],
+	"name" : "Console",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

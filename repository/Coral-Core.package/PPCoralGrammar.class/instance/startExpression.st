@@ -1,0 +1,3 @@
+accessing
+startExpression
+	^ smalltalk startExpression
