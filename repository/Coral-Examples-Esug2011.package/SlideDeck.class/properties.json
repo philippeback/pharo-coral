@@ -1,0 +1,15 @@
+{
+	"category" : "Coral-Examples-Esug2011",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"slides",
+		"name" ],
+	"name" : "SlideDeck",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

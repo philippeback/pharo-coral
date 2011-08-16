@@ -1,0 +1,3 @@
+interaction
+readOneCharacter
+	^ stream readOneCharacter

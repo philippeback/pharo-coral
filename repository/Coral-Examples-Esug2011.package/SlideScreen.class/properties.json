@@ -1,0 +1,17 @@
+{
+	"category" : "Coral-Examples-Esug2011",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stream",
+		"margin",
+		"width",
+		"height" ],
+	"name" : "SlideScreen",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
