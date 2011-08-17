@@ -1,7 +1,7 @@
 running
 setUp
 	"example taken from http://rubydoc.info/gems/cri/2.0.2/file/README.md"
-	environment := CLIEnvironment in: nil out: String new writeStream err: String new writeStream.
+	environment := CLIAdhocEnvironment in: nil out: String new writeStream err: String new writeStream.
 	
 	command := (CLICommandParser named: 'dostuff')
 		aliases: #('ds' 'stuff');
