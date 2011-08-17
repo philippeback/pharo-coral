@@ -1,3 +1,6 @@
-runnig
+running
 exitWithStatus: anInteger 
-	"Do nothing. A real environment would quit the image etc."
+	"Quit the VM process, returning anInteger to the parent process."
+	
+	self flag: #vmDoesNotKnowHowToProperlyExit.
+	SmalltalkImage current snapshot: false andQuit: true

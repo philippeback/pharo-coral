@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "CLIEnvironment",
+		"in",
+		"out",
+		"err" ],
+	"name" : "CLIAdhocEnvironment",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "CLIEnvironment",
 	"type" : "normal" }

@@ -1,3 +1,3 @@
 accessing
-out
+in
 	^ FileStream stdout
