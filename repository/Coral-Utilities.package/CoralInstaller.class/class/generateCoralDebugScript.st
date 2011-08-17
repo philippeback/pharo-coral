@@ -5,7 +5,7 @@ generateCoralDebugScript
 	self createWrapperNamed: 'coralDebug.sh' withContents:
 '#! /bin/sh
 vm=''', Smalltalk vmFullPath, '''
-image=''', (Smalltalk getSystemAttribute: 1), '''
+image=''', (Smalltalk imageName), '''
 
 for i in "$@"; do
 	params="$params \"$i\""
