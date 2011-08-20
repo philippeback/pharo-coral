@@ -12,11 +12,11 @@ runScript
 			(ex isKindOf: InMidstOfFileinNotification) 
 				ifTrue:[ ex resume: false ]
 				ifFalse: [
-					Smalltalk
-						logError: ex printString
-						inContext: thisContext.
-					Console puts: ex printString]].
+					Console puts: ex printString.
+					(CommandLine uniqueInstance hasOption: #debug)
+						ifTrue: [ Console puts: 'Spawning a debugger...'. ex pass ]
+						ifFalse: [ Smalltalk logError: ex printString inContext: thisContext ] ] ].
 
 	Console newline.
-	SmalltalkImage current shouldQuitAfterExecution
-		ifTrue: [Smalltalk quitPrimitive]
+	(CommandLine uniqueInstance hasOption: #debug)
+		ifFalse: [Smalltalk quitPrimitive]
