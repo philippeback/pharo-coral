@@ -1,3 +1,3 @@
 accessing
 in
-	^ FileStream stdout
+	^ OSProcess thisOSProcess stdIn "FileStream stdout"

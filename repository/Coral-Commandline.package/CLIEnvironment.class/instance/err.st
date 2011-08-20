@@ -1,3 +1,3 @@
 accessing
 err
-	^ FileStream stderr
+	^ OSProcess thisOSProcess stdErr "FileStream stderr"
