@@ -9,11 +9,12 @@
 		"captureOptions:parameters:subcommand:" : "DamienPollet 8/10/2011 19:27",
 		"commandParser" : "DamienPollet 8/20/2011 13:46",
 		"description" : "DamienPollet 8/9/2011 17:40",
+		"documentation" : "DamienPollet 8/21/2011 14:28",
 		"hasOptions" : "DamienPollet 8/11/2011 03:41",
 		"hasParameters" : "DamienPollet 8/11/2011 03:41",
 		"hasSubcommands" : "DamienPollet 8/11/2011 03:42",
-		"help" : "DamienPollet 8/11/2011 03:39",
-		"manual" : "DamienPollet 8/9/2011 17:40",
+		"help" : "DamienPollet 8/21/2011 14:19",
+		"manual" : "DamienPollet 8/21/2011 14:45",
 		"name" : "DamienPollet 8/9/2011 17:18",
 		"on:in:" : "DamienPollet 8/16/2011 18:56",
 		"options" : "DamienPollet 8/9/2011 17:44",
@@ -30,4 +31,4 @@
 		"subcommandParser" : "DamienPollet 8/11/2011 02:14",
 		"subcommands" : "DamienPollet 8/9/2011 17:51",
 		"summary" : "DamienPollet 8/9/2011 17:41",
-		"synopsis" : "DamienPollet 8/9/2011 17:50" } }
+		"synopsis" : "DamienPollet 8/21/2011 14:11" } }
