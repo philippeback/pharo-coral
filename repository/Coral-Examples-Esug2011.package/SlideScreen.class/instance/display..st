@@ -1,5 +1,4 @@
 displaying-primitives
 display: aString
-	margin timesRepeat: stream newline.
-	self resetMargin.
+	self skipMargin.
 	stream << aString; newline
