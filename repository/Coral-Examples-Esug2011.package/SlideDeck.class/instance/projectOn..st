@@ -3,7 +3,6 @@ projectOn: aScreen
 	| index |
 	index := 1.
 	[ index <= slides size ] whileTrue: [ | cmd |
-		aScreen clearSlide.
 		(slides at: index) projectOn: aScreen.
 		cmd := aScreen readOneCharacter.
 		

@@ -1,4 +1,5 @@
 displaying-primitives
 clearSlide
 	stream esc: '[f'.
-	stream esc: '[J'
+	stream esc: '[J'.
+	self resetMargin
