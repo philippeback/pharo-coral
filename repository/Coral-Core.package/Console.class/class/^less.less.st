@@ -1,4 +1,4 @@
 output
-<< aStream
+<< anObject
 
-	OSProcess thisOSProcess stdOut nextPutAll: aStream
+	OSProcess thisOSProcess stdOut nextPutAll: anObject asString
