@@ -1,5 +1,4 @@
 displaying-primitives
 clearSlide
-	stream esc: '[f'.
-	stream esc: '[J'.
+	stream << Ansi clearScreen.
 	self resetMargin
