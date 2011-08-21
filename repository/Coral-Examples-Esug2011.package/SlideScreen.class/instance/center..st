@@ -1,5 +1,6 @@
 displaying-primitives
 center: aString
-	(Character lf split: aString)
-		do: [ :each | self centerSingle: each ]
+	^ Character lf join: (
+		(Character lf split: aString)
+			collect: [ :each | self centerSingle: each ])
 	
