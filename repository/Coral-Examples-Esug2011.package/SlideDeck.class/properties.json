@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"slides",
-		"name" ],
+		"name",
+		"index" ],
 	"name" : "SlideDeck",
 	"pools" : [
 		 ],
