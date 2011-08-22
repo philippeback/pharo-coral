@@ -6,4 +6,4 @@ logo: aString
 	stream << (self
 					ansiColorize: (self center: (self bigFiglet: aString))
 					color: orange).
-	self margin: 5
+	self margin: 3

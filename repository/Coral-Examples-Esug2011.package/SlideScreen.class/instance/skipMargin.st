@@ -1,4 +1,4 @@
 displaying-primitives
 skipMargin
-	margin timesRepeat: stream newline.
+	margin timesRepeat: [ stream newline ].
 	self resetMargin.
