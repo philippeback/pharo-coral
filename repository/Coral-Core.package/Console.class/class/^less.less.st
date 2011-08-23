@@ -1,4 +1,6 @@
 output
 << anObject
 
-	OSProcess thisOSProcess stdOut nextPutAll: anObject asString
+	(OSProcess thisOSProcess stdOut
+			converter: (TextConverter newForEncoding: 'UTF-8'))
+		nextPutAll: anObject asString

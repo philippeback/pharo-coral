@@ -9,7 +9,7 @@ runConsole
 			ifTrue: [ Console listHistory ]
 			ifFalse: [
 				Console addToHistory: inputStr.
-				[ PPCoralParser parseExpression: inputStr ]
+				[ Console puts: (PPCoralParser parse: '[' , inputStr , ']') first printString ]
 					on: Exception
 					do: [ :ex | Console puts: ex printString ] ]
 			]

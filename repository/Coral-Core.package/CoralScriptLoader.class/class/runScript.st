@@ -1,13 +1,15 @@
 initialize-release
 runScript
 
-	| script |
+	| script stream |
 	script := ((SmalltalkImage current documentPath) ifNil:['']) convertFromSystemString.
-
 	script isEmpty ifTrue: [^ self ].
 	
+	stream := FileStream readOnlyFileNamed: script.
+	stream converter: (TextConverter newForEncoding: 'UTF-8').
+	
 	CoralScriptWriting resetArguments.
-	[PPCoralParser parse: (FileStream readOnlyFileNamed: script) contents] 
+	[PPCoralParser parse: stream contents]
 		on: Exception do: [ :ex |
 			(ex isKindOf: InMidstOfFileinNotification) 
 				ifTrue:[ ex resume: false ]
