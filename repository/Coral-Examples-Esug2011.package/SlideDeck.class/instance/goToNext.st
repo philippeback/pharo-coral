@@ -1,3 +1,4 @@
 displaying
 goToNext
-	index := index + 1
+	[ self goToNextPartial ]
+		doWhileTrue: [ (slides at: index) isPartial ]

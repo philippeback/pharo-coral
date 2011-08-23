@@ -7,11 +7,12 @@ projectOn: aScreen
 		cmd := aScreen readOneCharacter.
 		
 		('qQ' includes: cmd) ifTrue: [ aScreen clearSlide. ^ self ].
-		('1{' includes: cmd) ifTrue: [ self goToFirst ].
-		('0}' includes: cmd) ifTrue: [ self goToLast ].
-		(' n]' , String lf includes: cmd) ifTrue: [ self goToNext ].
-		('p[' includes: cmd) ifTrue: [ self goToPrevious ].
-		('P' includes: cmd) ifTrue: [ self goToPreviousPartial ].
+		('1' includes: cmd) ifTrue: [ self goToFirst ].
+		('0' includes: cmd) ifTrue: [ self goToLast ].
+		(' n]' , String lf includes: cmd) ifTrue: [ self goToNextPartial ].
+		('N}' includes: cmd) ifTrue: [ self goToNext ].
+		('p{' includes: cmd) ifTrue: [ self goToPrevious ].
+		('P[' includes: cmd) ifTrue: [ self goToPreviousPartial ].
 		].
 	aScreen clearSlide.
 	aScreen display: 'Thanks for your attention!'
