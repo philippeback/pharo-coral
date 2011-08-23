@@ -1,3 +1,3 @@
 displaying-content
 item: aString
-	self display: '  * ' , aString
+	self text: '      * ' , aString

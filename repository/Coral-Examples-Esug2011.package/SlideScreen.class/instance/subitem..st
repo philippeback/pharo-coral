@@ -1,3 +1,3 @@
 displaying-content
 subitem: aString
-	self display: '    - ' , aString
+	self text: '         - ' , aString

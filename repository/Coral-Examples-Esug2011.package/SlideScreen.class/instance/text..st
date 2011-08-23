@@ -1,3 +1,3 @@
 displaying-content
 text: aString
-	self display: aString
+	self white: [	self display: '   ' , aString ]
