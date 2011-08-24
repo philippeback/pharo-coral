@@ -4,7 +4,7 @@ startUp
 	
 	Smalltalk addDeferredStartupAction: [
 		Console initHistory.
-		Console prompt: (Ansi fg: 4) , '> ' , (Ansi sgrReset).	
+		Console prompt: '> '.
 		
 		((SmalltalkImage current documentPath) = '') 
 			ifTrue: [ self runConsole ]
