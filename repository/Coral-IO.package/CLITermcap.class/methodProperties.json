@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"initialize" : "CamilloBruni 9/29/2011 18:31",
+		"instance" : "CamilloBruni 9/29/2011 18:30" },
+	"instance" : {
+		"flush" : "CamilloBruni 2/7/2011 15:15",
+		"getent:" : "CamilloBruni 2/7/2011 15:15",
+		"getflag:" : "ToonVerwaest 8/16/2010 15:25",
+		"getnum:" : "ToonVerwaest 8/16/2010 13:31",
+		"getstr:" : "CamilloBruni 9/29/2011 18:32",
+		"initialize" : "CamilloBruni 9/29/2011 18:31",
+		"parm:in:" : "ToonVerwaest 8/16/2010 16:33",
+		"parm:parm:in:" : "ToonVerwaest 8/16/2010 16:33",
+		"pgetent:" : "CamilloBruni 2/7/2011 14:36",
+		"pinitialize" : "CamilloBruni 2/7/2011 15:00",
+		"reset" : "ToonVerwaest 8/16/2010 15:00",
+		"tgetstr:" : "ToonVerwaest 8/17/2010 10:38" } }
