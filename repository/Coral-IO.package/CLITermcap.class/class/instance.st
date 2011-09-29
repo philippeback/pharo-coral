@@ -1,3 +1,3 @@
-as yet unclassified
+instance creation
 instance
 	^ instance ifNil: [ instance := self new ].
