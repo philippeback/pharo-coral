@@ -1,0 +1,14 @@
+{
+	"category" : "Coral-IO",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CLISTVTermOutputDriver",
+	"pools" : [
+		 ],
+	"super" : "CLIVTermOutputDriver",
+	"type" : "normal" }

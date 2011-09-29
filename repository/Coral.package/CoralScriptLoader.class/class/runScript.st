@@ -2,7 +2,7 @@ initialize-release
 runScript
 
 	| script |
-	script := ((SmalltalkImage current getSystemAttribute: 2) ifNil:['']) convertFromSystemString.
+	script := ((SmalltalkImage current vm documentPath) ifNil:['']) convertFromSystemString.
 
 	script isEmpty ifTrue: [^ self ].
 	

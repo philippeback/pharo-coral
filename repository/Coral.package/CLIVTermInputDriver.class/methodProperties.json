@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"on:" : "CamilloBruni 8/11/2011 19:39" },
+	"instance" : {
+		"continueReadCSINumber:" : "CamilloBruni 8/11/2011 19:38",
+		"fail:in:" : "ToonVerwaest 8/13/2010 16:26",
+		"handler:" : "ToonVerwaest 8/20/2010 14:15",
+		"inStream:" : "CamilloBruni 8/11/2011 19:38",
+		"initialize" : "ToonVerwaest 8/13/2010 16:23",
+		"initializeCSI:" : "ToonVerwaest 8/20/2010 14:16",
+		"initializeNormal:" : "ToonVerwaest 8/20/2010 14:17",
+		"initializeSS3:" : "ToonVerwaest 8/20/2010 14:17",
+		"read" : "CamilloBruni 8/24/2011 16:19",
+		"readC1" : "CamilloBruni 8/11/2011 19:38",
+		"readCSI" : "CamilloBruni 8/11/2011 19:38",
+		"readSS3" : "CamilloBruni 8/11/2011 19:38" } }

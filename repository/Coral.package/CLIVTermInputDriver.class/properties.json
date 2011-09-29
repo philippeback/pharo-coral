@@ -1,0 +1,18 @@
+{
+	"category" : "Coral-IO",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"inStream",
+		"handler",
+		"normal",
+		"csi",
+		"ss3" ],
+	"name" : "CLIVTermInputDriver",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

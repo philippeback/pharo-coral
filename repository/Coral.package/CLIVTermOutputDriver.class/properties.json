@@ -1,0 +1,21 @@
+{
+	"category" : "Coral-IO",
+	"classinstvars" : [
+		"stdoutTerminalInstance",
+		"stderrTerminalInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"termcap",
+		"outStream",
+		"currentBackground",
+		"currentColor",
+		"light",
+		"blink",
+		"shouldEcho" ],
+	"name" : "CLIVTermOutputDriver",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -5,7 +5,7 @@ startUp
 	Console initHistory.
 	Console prompt: '> '.	
 		
-	((SmalltalkImage current getSystemAttribute: 2) = '') 
+	((SmalltalkImage current documentPath) = '') 
 		ifTrue: [ self runConsole ]
 		ifFalse: [ self runScript ]
 	
