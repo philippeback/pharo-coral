@@ -1,6 +1,8 @@
 {
 	"class" : {
-		"on:" : "CamilloBruni 9/29/2011 18:30" },
+		"on:" : "CamilloBruni 9/29/2011 18:30",
+		"stdErr" : "CamilloBruni 10/3/2011 15:48",
+		"stdOut" : "CamilloBruni 10/3/2011 15:48" },
 	"instance" : {
 		"<<" : "CamilloBruni 2/8/2011 16:41",
 		"backspace" : "ToonVerwaest 8/12/2010 21:55",
