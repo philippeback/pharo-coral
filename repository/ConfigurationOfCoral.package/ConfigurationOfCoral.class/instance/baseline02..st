@@ -21,7 +21,7 @@ baseline02: spec
 			project: 'PetitParser' with: [
 				spec
 					className: 'ConfigurationOfPetitParser';
-					versionString: #bleedingEdge;
+					versionString: #development;
 					loads: #('Core' 'Tests' 'PetitSmalltalk');
 					repository: 'http://source.lukas-renggli.ch/petit' ].
 
