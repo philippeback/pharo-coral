@@ -8,8 +8,8 @@ initialize
 	cache at: #up put: (esc, 'A').
 	cache at: #le put: (esc, 'D').
 	cache at: #nd put: (esc, 'C').
-	cache at: #im put: ''.
-	cache at: #ei put: ''.
+	cache at: #im put: (esc, '4h').
+	cache at: #ei put: (esc, '4l').
 	cache at: #mr put: (esc, '7m').
 	cache at: #me put: (esc, '0m').
 	cache at: #ce put: (esc, 'K').
