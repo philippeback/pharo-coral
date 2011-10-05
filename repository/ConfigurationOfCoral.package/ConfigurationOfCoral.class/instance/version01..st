@@ -1,14 +1,13 @@
 versions
 version01: spec
-	<version: '0.1' imports: #('0.2-baseline' )>
+	<version: '0.1' imports: #('0.3-baseline' )>
 
 	spec for: #'common' do: [
 		spec blessing: #'development'.
 		spec description: 'Initial development snapshot'.
 		spec author: 'DamienPollet'.
 		spec timestamp: '10/5/2011 17:19'.
-		spec 
-			project: 'Filesystem' with: '2.0.3';
+		spec
 			project: 'OSProcess' with: '4.4.5';
 			project: 'PetitParser' with: '1.4'.
 		spec 
