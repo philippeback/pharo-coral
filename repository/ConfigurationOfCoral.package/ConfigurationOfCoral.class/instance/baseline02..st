@@ -11,7 +11,7 @@ baseline02: spec
 			project: 'Filesystem' with: [
 				spec
 					className: 'ConfigurationOfFilesystem';
-					versionString: #bleedingEdge;
+					versionString: #development;
 					repository: 'http://www.squeaksource.com/fs' ];
 			project: 'OSProcess' with: [
 				spec

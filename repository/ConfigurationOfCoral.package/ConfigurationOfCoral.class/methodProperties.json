@@ -12,5 +12,8 @@
 		"validate" : "DamienPollet 8/13/2011 01:12" },
 	"instance" : {
 		"baseline01:" : "DamienPollet 8/13/2011 03:01",
-		"baseline02:" : "DamienPollet 10/4/2011 18:16",
-		"project" : "DamienPollet 8/13/2011 01:12" } }
+		"baseline02:" : "DamienPollet 10/5/2011 17:06",
+		"development:" : "DamienPollet 10/5/2011 17:19",
+		"project" : "DamienPollet 8/13/2011 01:12",
+		"stable:" : "DamienPollet 10/5/2011 17:23",
+		"version01:" : "DamienPollet 10/5/2011 17:21" } }
