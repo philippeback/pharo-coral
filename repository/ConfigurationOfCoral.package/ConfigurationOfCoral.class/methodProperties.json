@@ -2,6 +2,8 @@
 	"class" : {
 		"DevelopmentSupport" : "DamienPollet 8/13/2011 01:12",
 		"baseConfigurationClassIfAbsent:" : "DamienPollet 8/13/2011 01:12",
+		"createNewBaselineVersion" : "DamienPollet 10/6/2011 16:13",
+		"createNewDevelopmentVersion" : "DamienPollet 10/6/2011 16:19",
 		"ensureMetacello" : "DamienPollet 8/13/2011 01:12",
 		"ensureMetacelloBaseConfiguration" : "DamienPollet 8/13/2011 01:12",
 		"isMetacelloConfig" : "DamienPollet 8/13/2011 01:12",
@@ -16,8 +18,9 @@
 		"baseline01:" : "DamienPollet 8/13/2011 03:01",
 		"baseline02:" : "DamienPollet 10/5/2011 17:06",
 		"baseline03:" : "DamienPollet 10/5/2011 17:44",
-		"baseline04:" : "CamilloBruni 10/6/2011 15:00",
-		"development:" : "DamienPollet 10/5/2011 17:19",
+		"baseline04:" : "DamienPollet 10/6/2011 16:17",
+		"development:" : "DamienPollet 10/6/2011 16:29",
 		"project" : "DamienPollet 8/13/2011 01:12",
-		"stable:" : "DamienPollet 10/5/2011 17:23",
-		"version01:" : "DamienPollet 10/5/2011 19:03" } }
+		"stable:" : "DamienPollet 10/6/2011 16:21",
+		"version01:" : "DamienPollet 10/5/2011 19:03",
+		"version02:" : "DamienPollet 10/6/2011 16:32" } }
