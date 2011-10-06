@@ -22,7 +22,7 @@ baseline04: spec
 			project: 'Readline' with: [
 				spec
 					className: 'ConfigurationOfReadline';
-					versionString: #bleedingEdge;
+					versionString: #development;
 					repository: 'http://ss3.gemstone.com/ss/readline' ].
 
 		spec
