@@ -1,6 +1,5 @@
 initialization
-initialize
-	super initialize.
+openWorkspaces
 	
 	self openWorkspaceLabeled: 'READ ME' withContents: self readMe.
 	self openWorkspaceLabeled: 'TO DO' withContents: self todo.
