@@ -28,7 +28,7 @@ baseline04: spec
 		spec
 			package: 'Coral-Core'					with: [ spec requires: #('PetitParser' 'OSProcess') ];
 			package: 'Coral-Utilities'				with: [ spec requires: #('OSProcess') ];
-			package: 'Coral-Commandline'			with: [ spec requires: #('PetitParser') ];
+			package: 'Coral-Commandline'			with: [ spec requires: #('PetitParser' 'Readline') ];
 			package: 'Coral-Tests' 					with: [ spec requires: #('Coral-Core' 'Coral-Commandline') ];
 			package: 'Coral-Examples-Esug2011'	with: [ spec requires: #('Coral-Core' 'Coral-Commandline' 'OSProcess') ].
 		
