@@ -4,8 +4,8 @@ generateCoralScript
 
 	self createWrapperNamed: 'coral.sh' withContents:
 '#! /bin/bash
-vm="/Applications/Developer/Squeak/Cog Carbon.app/Contents/MacOS/CogVM"
-image="/Users/damien/Documents/Coral/Coral.image"
+vm=''', Smalltalk vm vmFileName, '''
+image=''', (Smalltalk vm imagePath), '''
 
 function usage() {
     echo "Usage: `basename $0` [-di] [script-file.coral]"
@@ -16,12 +16,16 @@ function usage() {
     echo "  -h  display this help message"
 }
 
+case `uname` in
+    Darwin) mktmpdir="mktemp -d -t coral" ;;
+    Linux) mktmpdir="mktemp --directory --tmpdir coral-XXXXXXXXXX" ;;
+esac
+
 imageArgs=""
 vmArgs=""
 debug="no"
 
 while getopts ":idh" opt; do
-    echo "FOO $opt $OPTIND $@"
     case $opt in
         i)  # interactive mode, configure the terminal for charwise input
             restore_tty="stty `stty -g`"
@@ -55,7 +59,7 @@ export COLUMNS=`tput cols`
 
 # we need to filter stderr but without redirecting it to stdout
 # so, setup a named pipe and make sure to clean it afterwards
-tmp=`mktemp -d -t coral`
+tmp=`$mktmpdir`
 mkfifo "$tmp"/stderr
 tail -n +2 "$tmp"/stderr >&2 &
 
