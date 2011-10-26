@@ -1,18 +1,19 @@
 versions
 version02: spec
-	<version: '0.2' imports: #('0.4-baseline' )>
+	<version: '0.2' imports: #('0.5-baseline' )>
 
 	spec for: #'common' do: [
 		spec blessing: #'development'.
-		spec description: 'Include readline
-Depend on Readline packages, do not open workspaces when loading code
-Better option parsing in launcher shell script
-Depend on devel version of readline
-Make coral.sh more portable'.
+		spec description: 'Progress:
+- Include readline
+- Depend on Readline packages, do not open workspaces when loading code
+- Better option parsing in launcher shell script
+- Depend on devel version of readline
+- Make coral.sh more portable'.
 		spec author: 'DamienPollet'.
 		spec timestamp: '10/24/2011 20:48'.
 		spec 
-			project: 'OSProcess' with: '4.4.5';
+			project: 'OSProcess' with: '4.4.6';
 			project: 'PetitParser' with: '1.4';
 			project: 'Readline' with: '0.1'.
 		spec 
