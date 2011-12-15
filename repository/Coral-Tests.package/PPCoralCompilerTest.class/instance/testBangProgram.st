@@ -4,12 +4,12 @@ testBangProgram
 	
 	self assert: 
 		(PPCoralParser parse: '#!/bin/usr/coralNegated 
-	Point>>blue 
+	CoralTestFixtureClass>>blue 
 	    [^ 2]
 	
-	Point>>red 
+	CoralTestFixtureClass>>red 
 	    [^ self blue]
 	
-	[Point new red = 2]' 
+	[CoralTestFixtureClass new red = 2]' 
 		) = #(blue red true)
 	

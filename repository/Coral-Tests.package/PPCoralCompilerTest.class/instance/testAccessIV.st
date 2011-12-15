@@ -24,4 +24,3 @@ testAccessIV
 		aStream nextPutAll: bob
 	]'
 	] raise: Error.
-

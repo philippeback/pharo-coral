@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"setUp" : "StephaneDucasse 12/8/2009 17:54",
-		"testClassDefWithOneIV" : "StephaneDucasse 9/5/2009 19:49",
+		"testClassDefWithOneIV" : "DamienPollet 12/15/2011 14:03",
 		"testClassDefWithOneSharedIV" : "StephaneDucasse 9/5/2009 19:55",
 		"testClassDefWithSeveralIV" : "StephaneDucasse 9/5/2009 19:50",
 		"testClassDefWithSeveralIVWithSeparateDef" : "StephaneDucasse 9/5/2009 19:50",
@@ -15,4 +15,4 @@
 		"testExtractOneArgWithMinusThenArgsWithout" : "AdrienBarreau 10/13/2010 13:25",
 		"testExtractTwoArgsWithAndWithoutMinus" : "AdrienBarreau 10/13/2010 15:26",
 		"testSimpleClassDef" : "StephaneDucasse 9/5/2009 19:42",
-		"testSimpleClassDefWithPackage" : "StephaneDucasse 9/5/2009 21:37" } }
+		"testSimpleClassDefWithPackage" : "DamienPollet 12/15/2011 15:38" } }

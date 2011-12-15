@@ -4,7 +4,7 @@ testBlueWithSpacesProgram
 	
 	self assert: 
 		(PPCoralParser parse: '
-	Point>>blue 
+	CoralTestFixtureClass>>blue 
 	    [^ 2]
 ' 
 		) = #(blue) 

@@ -35,4 +35,4 @@ testScript
 	]'] raise: Error.
 
 	self assert: (Smalltalk at: #SaBox ifAbsent:[nil]) notNil.
-	self assert: (Smalltalk at: #SaBox ifAbsent:[nil])  dummy = 3
+	self assert: (Smalltalk at: #SaBox ifAbsent:[nil]) dummy = 3

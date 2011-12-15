@@ -4,8 +4,8 @@ testSimpleClassDefWithPackage
 	
 	| coloredPointClass |
 	coloredPointClass := Point < #ColoredPoint
-							package: #Box.
+							category: #Box.
 	self assert: coloredPointClass superclass = Point.
-	self assert: coloredPointClass package = #Box.
+	self assert: coloredPointClass package name = #Box.
 	self assert: coloredPointClass category = #Box.
 	

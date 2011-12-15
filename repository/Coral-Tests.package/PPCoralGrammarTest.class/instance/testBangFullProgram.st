@@ -6,10 +6,10 @@ testBangFullProgram
 		parse: '#!/bin/usr/
 		[Beeper beep]
 		
-				Point>> foo 
+				CoralTestFixtureClass>> foo 
 					[  1 + 2]
 				
-				Point>> foo2 
+				CoralTestFixtureClass>> foo2 
 					[ ^ 1 + 2]
 				
 				[Beeper beep]'
