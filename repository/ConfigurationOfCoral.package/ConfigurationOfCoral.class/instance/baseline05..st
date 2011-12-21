@@ -18,7 +18,7 @@ baseline05: spec
 					className: 'ConfigurationOfPetitParser';
 					versionString: #development;
 					loads: #('Core' 'Tests' 'PetitSmalltalk');
-					repository: 'http://source.lukas-renggli.ch/petit' ];
+					repository: 'http://ss3.gemstone.com/ss/coral' ];
 			project: 'Readline' with: [
 				spec
 					className: 'ConfigurationOfReadline';
