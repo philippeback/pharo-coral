@@ -1,9 +1,11 @@
 {
 	"class" : {
+		"computeScriptNameFor:" : "LucFabresse 1/3/2012 17:24",
 		"createFileNamed:withContents:" : "DamienPollet 8/13/2011 00:47",
-		"createWrapperNamed:withContents:" : "DamienPollet 8/7/2011 00:38",
-		"generateAllExamples" : "OlivierAuverlot 11/24/2010 14:19",
+		"createWrapperNamed:withContents:" : "LucFabresse 1/3/2012 17:20",
+		"generateAllExamples" : "LucFabresse 1/4/2012 09:39",
 		"generateCoralScript" : "DamienPollet 10/24/2011 18:58",
-		"generateScript:" : "AdrienBarreau 10/13/2010 14:11" },
+		"generateScript:to:" : "LucFabresse 1/4/2012 09:38",
+		"giveExecutionRightToFileNamed:" : "LucFabresse 1/3/2012 17:20" },
 	"instance" : {
 		 } }
