@@ -1,3 +1,0 @@
-arguments
-resetArguments 
-	currentArgs := nil
