@@ -2,4 +2,4 @@ output
 printTab
 	"display a tab"
 
-	Console << #[9]
+	self print: Character tab

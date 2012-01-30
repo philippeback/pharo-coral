@@ -1,4 +1,6 @@
 output
-print: aStream
+print: anObject
 
-	Console << aStream.
+	(OSProcess thisOSProcess stdOut
+			converter: (TextConverter newForEncoding: 'UTF-8'))
+		nextPutAll: anObject asString

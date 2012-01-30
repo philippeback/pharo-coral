@@ -1,4 +1,6 @@
 output
-printError: aStream
+printError: anObject
 
-	OSProcess thisOSProcess stdErr nextPutAll: aStream
+	(OSProcess thisOSProcess stdErr
+			converter: (TextConverter newForEncoding: 'UTF-8'))
+		nextPutAll: anObject asString

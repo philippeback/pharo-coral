@@ -1,3 +1,3 @@
 output
 puts: aString
-	self << aString; newline
+	self printNl: aString

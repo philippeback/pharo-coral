@@ -1,5 +1,7 @@
 output
-printNl: aStream
+printNl: anObject
 
-	Console << (aStream,Console newLine).
+	self
+		print: anObject;
+		print: self newlineString
 	
