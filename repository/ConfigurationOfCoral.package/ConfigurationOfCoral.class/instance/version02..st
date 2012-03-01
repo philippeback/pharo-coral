@@ -14,14 +14,14 @@ version02: spec
 - Fix getting parameters from CommandLine
 - Print errors to stderr'.
 		spec author: 'DamienPollet'.
-		spec timestamp: '1/30/2012 16:04'.
+		spec timestamp: '3/1/2012 17:06'.
 		spec 
 			project: 'OSProcess' with: '4.4.6';
 			project: 'PetitParser' with: '1.4';
 			project: 'Readline' with: '0.1'.
 		spec 
-			package: 'Coral-Core' with: 'Coral-Core-DamienPollet.10';
+			package: 'Coral-Core' with: 'Coral-Core-DamienPollet.13';
 			package: 'Coral-Utilities' with: 'Coral-Utilities-LucFabresse.7';
 			package: 'Coral-Commandline' with: 'Coral-Commandline-DamienPollet.7';
-			package: 'Coral-Tests' with: 'Coral-Tests-DamienPollet.3';
+			package: 'Coral-Tests' with: 'Coral-Tests-DamienPollet.4';
 			package: 'Coral-Examples-Esug2011' with: 'Coral-Examples-Esug2011-DamienPollet.13'. ].
