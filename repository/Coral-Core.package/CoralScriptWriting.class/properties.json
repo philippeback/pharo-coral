@@ -1,0 +1,15 @@
+{
+	"category" : "Coral-Core",
+	"classinstvars" : [
+		"currentArgs",
+		"coralArgsCollection" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DamienPollet 7/28/2011 16:10",
+	"instvars" : [
+		 ],
+	"name" : "CoralScriptWriting",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

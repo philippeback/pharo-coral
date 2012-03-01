@@ -8,4 +8,16 @@ runScript
 	stream := FileStream readOnlyFileNamed: script.
 	stream converter: (TextConverter newForEncoding: 'UTF-8').
 	
-	^ self runScript: stream
+	CoralScriptWriting resetArguments.
+	[PPCoralParser parse: stream contents]
+		on: Exception do: [ :ex |
+			(ex isKindOf: InMidstOfFileinNotification) 
+				ifTrue:[ ex resume: false ]
+				ifFalse: [
+					Console printNlError: ex printString.
+					(CommandLine uniqueInstance hasOption: #debug)
+						ifTrue: [ Console printError: 'Spawning a debugger...'. ex pass ]
+						ifFalse: [ Smalltalk logError: ex printString inContext: thisContext ] ] ].
+
+	(CommandLine uniqueInstance hasOption: #debug)
+		ifFalse: [Smalltalk quitPrimitive]

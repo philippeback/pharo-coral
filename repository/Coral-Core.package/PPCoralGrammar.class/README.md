@@ -1,0 +1,1 @@
+PPCoralGrammar defines the syntax of Coral files and declarations, and delegates to the PetitSmalltalk grammar.
