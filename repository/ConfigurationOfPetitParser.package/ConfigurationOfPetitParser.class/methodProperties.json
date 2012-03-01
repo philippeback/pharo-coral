@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"ensureMetacello" : "FabrizioPerin 4/27/2010 15:04",
+		"isMetacelloConfig" : "tg 4/18/2010 23:51",
+		"loadDefault" : "TudorGirba 12/12/2010 21:25",
+		"loadMinimal" : "TudorGirba 12/12/2010 21:25",
+		"project" : "tg 4/18/2010 23:51",
+		"updateToLatestPackageVersions:" : "DamienPollet 2/29/2012 17:16" },
+	"instance" : {
+		"baseline10:" : "AlexandreBergel 12/3/2010 09:14",
+		"baseline11:" : "AlexandreBergel 2/18/2011 13:56",
+		"baseline12:" : "DamienPollet 8/8/2011 17:17",
+		"baseline13:" : "DamienPollet 10/5/2011 18:00",
+		"baseline14:" : "DamienPollet 2/29/2012 18:51",
+		"default:" : "Tg 11/11/2010 21:06",
+		"development:" : "DamienPollet 8/7/2011 13:48",
+		"minimal:" : "AlexandreBergel 12/3/2010 09:12",
+		"project" : "tg 4/18/2010 23:50",
+		"stable:" : "AlexandreBergel 2/18/2011 13:56",
+		"version10:" : "AlexandreBergel 12/10/2010 18:51",
+		"version11:" : "AlexandreBergel 5/16/2011 16:23",
+		"version12:" : "AlexandreBergel 5/16/2011 16:23",
+		"version13:" : "AlexandreBergel 5/16/2011 16:23",
+		"version14:" : "DamienPollet 3/1/2012 16:04" } }

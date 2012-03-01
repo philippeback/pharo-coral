@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfPetitParser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfPetitParser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
