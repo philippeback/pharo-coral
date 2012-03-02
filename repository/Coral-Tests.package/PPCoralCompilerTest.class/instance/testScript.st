@@ -30,5 +30,4 @@ testScript
 		[ CoralTestC1 new printString 	]'.
 
 	self shouldnt: (Smalltalk at: #CoralTestC1) raise: KeyNotFound.
-	createdClasses add: (Smalltalk at: #CoralTestC1).
 	self assert: (Smalltalk at: #CoralTestC1) dummy = 3

@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		 ],
-	"name" : "PPCoralGrammarTest",
+	"name" : "CoralTestJanitor",
 	"pools" : [
 		 ],
-	"super" : "PPSmalltalkGrammarTests",
+	"super" : "Object",
 	"type" : "normal" }

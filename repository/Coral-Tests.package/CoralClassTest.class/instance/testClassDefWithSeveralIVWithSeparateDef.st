@@ -2,8 +2,7 @@ tests
 testClassDefWithSeveralIVWithSeparateDef
 	| c |
 	
-	c := createdClasses add:
-		(Point < self c1Name 
+	c := (Point < self c1Name 
 			iv: 'color';
 			iv: 'z').
 	

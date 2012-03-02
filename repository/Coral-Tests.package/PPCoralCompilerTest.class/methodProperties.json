@@ -3,9 +3,9 @@
 		 },
 	"instance" : {
 		"parserClass" : "StephaneDucasse 12/8/2009 17:55",
-		"setUp" : "DamienPollet 3/2/2012 17:34",
+		"setUp" : "DamienPollet 3/2/2012 18:48",
 		"testABlock" : "DamienPollet 3/2/2012 18:30",
-		"testAccessIV" : "DamienPollet 3/2/2012 18:24",
+		"testAccessIV" : "DamienPollet 3/2/2012 18:48",
 		"testAnotherBlock" : "DamienPollet 3/2/2012 18:31",
 		"testBangAlone" : "DamienPollet 3/2/2012 18:25",
 		"testBangProgram" : "DamienPollet 3/2/2012 18:31",
@@ -15,6 +15,6 @@
 		"testDefineAMethod" : "DamienPollet 3/2/2012 18:32",
 		"testDefineAMethodWithExtraDot" : "DamienPollet 3/2/2012 18:33",
 		"testMethodUnary1" : "TestRunner 12/7/2009 23:27",
-		"testScript" : "DamienPollet 3/2/2012 18:21",
-		"testScript1" : "DamienPollet 3/2/2012 18:20",
+		"testScript" : "DamienPollet 3/2/2012 18:49",
+		"testScript1" : "DamienPollet 3/2/2012 18:49",
 		"testWhiteSpaceAfterClassName" : "DamienPollet 3/2/2012 18:33" } }

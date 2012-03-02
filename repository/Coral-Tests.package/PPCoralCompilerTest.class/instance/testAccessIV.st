@@ -6,7 +6,6 @@ testAccessIV
 		Object < #CoralTestC1
 			iv: ''bob'' ]'.
 	self shouldnt: [c := Smalltalk at: #CoralTestC1] raise: KeyNotFound.
-	createdClasses add: c.
 	
 	self parse: '
 		CoralTestC1>>initialize [

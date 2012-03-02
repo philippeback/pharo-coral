@@ -2,8 +2,7 @@ tests
 testClassDefWithOneIV
 	| c |
 
-	c := createdClasses add:
-		(Point < self c1Name
+	c := (Point < self c1Name
 			iv: 'color').
 
 	self assert: c superclass = Point.

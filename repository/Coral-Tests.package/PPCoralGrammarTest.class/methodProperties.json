@@ -2,9 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"createdClassNames" : "DamienPollet 3/2/2012 18:47",
+		"createdPackageNames" : "DamienPollet 3/2/2012 19:04",
 		"parserClass" : "StephaneDucasse 12/8/2009 17:56",
-		"setUp" : "DamienPollet 3/2/2012 17:26",
-		"tearDown" : "DamienPollet 3/2/2012 17:26",
+		"tearDown" : "DamienPollet 3/2/2012 18:57",
 		"testBang" : "DamienPollet 3/2/2012 18:26",
 		"testBangFullProgram" : "DamienPollet 3/2/2012 18:27",
 		"testBangNoSpace" : "DamienPollet 3/2/2012 18:27",

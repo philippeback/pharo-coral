@@ -9,7 +9,6 @@ testScript1
 			poolDictionaries: ''''
 			category: ''CoralTestP1'' ]'.
 	self shouldnt: [Smalltalk at: #CoralTestC1] raise: KeyNotFound.
-	createdClasses add: (Smalltalk at: #CoralTestC1).
 	
 	self parse: 'CoralTestC1>>initialize [bob := ''Script test working'']'.
 	self parse: 'CoralTestC1>>bob [^ bob ]'.

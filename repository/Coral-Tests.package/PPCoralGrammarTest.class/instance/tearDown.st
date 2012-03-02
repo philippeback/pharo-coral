@@ -1,5 +1,5 @@
 running
 tearDown
-	createdClasses do: [:cls | | logging |
-		logging := false.
-		cls isObsolete ifFalse: [ cls removeFromSystem: logging ] ]
+	CoralTestJanitor new
+		cleanupClassesNamed: self createdClassNames;
+		cleanupPackagesNamed: self createdPackageNames.

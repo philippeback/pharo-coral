@@ -3,13 +3,14 @@
 		 },
 	"instance" : {
 		"c1Name" : "DamienPollet 3/2/2012 17:10",
+		"createdClassNames" : "DamienPollet 3/2/2012 19:12",
+		"createdPackageNames" : "DamienPollet 3/2/2012 19:12",
 		"p1Name" : "DamienPollet 3/2/2012 17:10",
-		"setUp" : "DamienPollet 3/2/2012 17:07",
-		"tearDown" : "DamienPollet 3/2/2012 17:07",
-		"testClassDefWithOneIV" : "DamienPollet 3/2/2012 17:19",
-		"testClassDefWithOneSharedIV" : "DamienPollet 3/2/2012 17:18",
-		"testClassDefWithSeveralIV" : "DamienPollet 3/2/2012 17:18",
-		"testClassDefWithSeveralIVWithSeparateDef" : "DamienPollet 3/2/2012 17:18",
+		"tearDown" : "DamienPollet 3/2/2012 19:07",
+		"testClassDefWithOneIV" : "DamienPollet 3/2/2012 19:05",
+		"testClassDefWithOneSharedIV" : "DamienPollet 3/2/2012 19:06",
+		"testClassDefWithSeveralIV" : "DamienPollet 3/2/2012 19:07",
+		"testClassDefWithSeveralIVWithSeparateDef" : "DamienPollet 3/2/2012 19:09",
 		"testExtractAllKinds" : "AdrienBarreau 10/13/2010 13:20",
 		"testExtractEmpty" : "AdrienBarreau 10/13/2010 13:09",
 		"testExtractNil" : "AdrienBarreau 10/13/2010 13:08",
@@ -17,5 +18,5 @@
 		"testExtractOneArgWithMinus" : "AdrienBarreau 10/13/2010 13:20",
 		"testExtractOneArgWithMinusThenArgsWithout" : "AdrienBarreau 10/13/2010 13:25",
 		"testExtractTwoArgsWithAndWithoutMinus" : "AdrienBarreau 10/13/2010 15:26",
-		"testSimpleClassDef" : "DamienPollet 3/2/2012 17:17",
-		"testSimpleClassDefWithPackage" : "DamienPollet 3/2/2012 18:03" } }
+		"testSimpleClassDef" : "DamienPollet 3/2/2012 19:09",
+		"testSimpleClassDefWithPackage" : "DamienPollet 3/2/2012 19:09" } }
