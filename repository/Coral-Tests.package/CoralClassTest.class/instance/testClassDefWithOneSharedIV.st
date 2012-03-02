@@ -1,10 +1,11 @@
 tests
 testClassDefWithOneSharedIV
-	"self debug: #testClassDefWithOneSharedIV"
+	| c |
 	
-	| coloredPointClass |
-	coloredPointClass := Point < #ColoredPoint 
-							shared: 'DefaultColor'.
-	self assert: coloredPointClass superclass = Point.
-	self assert: coloredPointClass instVarNames isEmpty.
-	self assert: (coloredPointClass classVarNames  includes: 'DefaultColor')
+	c := createdClasses add:
+		(Point < self c1Name
+			shared: 'DefaultColor').
+		
+	self assert: c superclass = Point.
+	self assert: c instVarNames isEmpty.
+	self assert: (c classVarNames includes: 'DefaultColor')

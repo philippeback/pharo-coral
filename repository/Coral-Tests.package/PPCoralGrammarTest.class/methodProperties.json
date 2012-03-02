@@ -3,13 +3,15 @@
 		 },
 	"instance" : {
 		"parserClass" : "StephaneDucasse 12/8/2009 17:56",
-		"testBang" : "StephaneDucasse 12/7/2009 15:00",
-		"testBangFullProgram" : "DamienPollet 12/15/2011 16:12",
-		"testBangNoSpace" : "TestRunner 12/7/2009 15:00",
+		"setUp" : "DamienPollet 3/2/2012 17:26",
+		"tearDown" : "DamienPollet 3/2/2012 17:26",
+		"testBang" : "DamienPollet 3/2/2012 18:26",
+		"testBangFullProgram" : "DamienPollet 3/2/2012 18:27",
+		"testBangNoSpace" : "DamienPollet 3/2/2012 18:27",
 		"testBlock" : "sd 10/3/2009 13:27",
-		"testClass" : "DamienPollet 3/1/2012 17:02",
-		"testFullProgram" : "DamienPollet 12/15/2011 16:12",
-		"testMethod" : "DamienPollet 12/15/2011 16:12",
+		"testClass" : "DamienPollet 3/2/2012 17:26",
+		"testFullProgram" : "DamienPollet 3/2/2012 18:28",
+		"testMethod" : "DamienPollet 3/2/2012 18:28",
 		"testMethodBinary1" : "DamienPollet 12/15/2011 16:12",
 		"testMethodBinary2" : "DamienPollet 12/15/2011 16:12",
 		"testMethodBinary3" : "DamienPollet 12/15/2011 16:12",
@@ -22,5 +24,4 @@
 		"testMethodUnary2" : "DamienPollet 12/15/2011 16:14",
 		"testMethodUnary3" : "DamienPollet 12/15/2011 16:14",
 		"testMethodUnaryClass4" : "DamienPollet 12/15/2011 16:14",
-		"testProgram" : "sd 10/3/2009 13:25",
-		"testProgramAsASingleBlock" : "sd 10/3/2009 13:26" } }
+		"testProgramAsASingleBlock" : "DamienPollet 3/2/2012 18:28" } }

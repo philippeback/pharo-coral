@@ -2,14 +2,14 @@ tests
 testBangProgram
 	"self debug: #testBangProgram"
 	
-	self assert: 
-		(PPCoralParser parse: '#!/bin/usr/coralNegated 
-	CoralTestFixtureClass>>blue 
-	    [^ 2]
+	self parse: '#!/bin/usr/coral
+		CoralTestFixtureClass>>blue 
+		    [^ 2]
 	
-	CoralTestFixtureClass>>red 
-	    [^ self blue]
+		CoralTestFixtureClass>>red 
+		    [^ self blue]
 	
-	[CoralTestFixtureClass new red = 2]' 
-		) = #(blue red true)
+		[CoralTestFixtureClass new red = 2]'.
+	
+	self assert: result equals: #(blue red true)
 	

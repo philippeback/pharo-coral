@@ -1,11 +1,15 @@
 tests
 testSimpleClassDefWithPackage
-	"self debug: #testSimpleClassDefWithPackage"
+	<expectedFailure>
+	| c |
+	c := createdClasses add:
+		(Point < self c1Name
+			category: self p1Name).
 	
-	| coloredPointClass |
-	coloredPointClass := Point < #ColoredPoint
-							category: #Box.
-	self assert: coloredPointClass superclass = Point.
-	self assert: coloredPointClass package name = #Box.
-	self assert: coloredPointClass category = #Box.
+	self assert: c superclass = Point.
+	self assert: c category = self p1Name.
+
+	"and this fails (it goes to _UnpackagedPackage)"
+	self assert: c package name = self p1Name.
+
 	

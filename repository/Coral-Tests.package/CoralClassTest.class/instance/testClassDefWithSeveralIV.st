@@ -1,11 +1,12 @@
 tests
 testClassDefWithSeveralIV
-	"self debug: #testClassDefWithSeveralIV"
+	| c |
 	
-	| coloredPointClass |
-	coloredPointClass := Point < #ColoredPoint 
-							iv: 'color z'.
-	self assert: coloredPointClass superclass = Point.
-	self deny: coloredPointClass instVarNames isEmpty.
-	self assert: (coloredPointClass instVarNames includes: 'color').
-	self assert: (coloredPointClass instVarNames includes: 'z').
+	c := createdClasses add:
+		(Point < self c1Name
+			iv: 'color z').
+	
+	self assert: c superclass = Point.
+	self deny:   c instVarNames isEmpty.
+	self assert: (c instVarNames includes: 'color').
+	self assert: (c instVarNames includes: 'z').

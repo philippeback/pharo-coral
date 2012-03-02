@@ -1,10 +1,11 @@
 tests
 testClassDefWithOneIV
-	"self debug: #testClassDefWithOneIV"
-	
-	| coloredPointClass |
-	coloredPointClass := Point < #ColoredPoint 
-							iv: 'color'.
-	self assert: coloredPointClass superclass = Point.
-	self deny: coloredPointClass instVarNames isEmpty.
-	self assert: coloredPointClass instVarNames = #('color')
+	| c |
+
+	c := createdClasses add:
+		(Point < self c1Name
+			iv: 'color').
+
+	self assert: c superclass = Point.
+	self deny: c instVarNames isEmpty.
+	self assert: c instVarNames = #('color')

@@ -2,10 +2,9 @@ tests
 testBlueWithSpacesProgram
 	"self debug: #testBlueWithSpacesProgram"
 	
-	self assert: 
-		(PPCoralParser parse: '
+	self assert: '
 	CoralTestFixtureClass>>blue 
 	    [^ 2]
 ' 
-		) = #(blue) 
+		is: #(blue) 
 	

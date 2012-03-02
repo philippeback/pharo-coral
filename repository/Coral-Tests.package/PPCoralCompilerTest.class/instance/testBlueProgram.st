@@ -4,5 +4,5 @@ testBlueProgram
 	"Pay attention the test should use a class that is in the image"
 	
 
-	self assert: (PPCoralParser parse: 'CoralTestFixtureClass>>blue[^2]' )= #(#blue)
+	self assert: 'CoralTestFixtureClass>>blue[^2]' is: #(#blue)
 	

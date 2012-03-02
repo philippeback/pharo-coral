@@ -2,8 +2,7 @@ tests
 testMethod
 	"self debug: #testMethod"
 
-	self 
+	self
 		parse: 'CoralTestFixtureClass>>blue [^ 2]'
-		rule: #program
-		
+		rule: #method
 	

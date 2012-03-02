@@ -1,8 +1,4 @@
-setup
+running
 setUp
-
-	" does not work ;(
-	
-	Smalltalk at: #ColorPoint ifPresent: [:each | each removeFromSystem ]
-	
-	"
+	createdClasses := OrderedCollection new.
+	createdPackages := OrderedCollection new.

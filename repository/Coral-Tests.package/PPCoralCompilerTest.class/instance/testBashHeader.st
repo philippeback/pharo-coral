@@ -2,10 +2,12 @@ tests
 testBashHeader
 	"self debug: #testBashHeader"
 	
-	Smalltalk at: #FooBar put: 666.
-	self shouldnt: [PPCoralParser parse: 
+	Smalltalk at: #CoralTestG1 put: 666.
+	
+	self parse: 
 		'#!/bin/sh
-		[ Smalltalk at: #FooBar put: 33. ]
-		'] raise: Error.
-	self assert: (Smalltalk at: #FooBar) =33.
-	Smalltalk removeKey: #FooBar
+		[ Smalltalk at: #CoralTestG1 put: 33. ]
+		'.
+	self assert: (Smalltalk at: #CoralTestG1) = 33.
+	
+	Smalltalk removeKey: #CoralTestG1

@@ -1,8 +1,9 @@
 tests
 testSimpleClassDef
-	"self debug: #testSimpleClassDef"
+	| c |
 	
-	| coloredPointClass |
-	coloredPointClass := Point < #ColoredPoint.
-	self assert: coloredPointClass superclass = Point.
-	self assert: coloredPointClass instVarNames isEmpty
+	c := createdClasses add:
+		(Point < self c1Name).
+	
+	self assert: c superclass = Point.
+	self assert: c instVarNames isEmpty

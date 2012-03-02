@@ -2,10 +2,10 @@ tests
 testClass
 
 	self 
-		parse: 'Class named: #Foo
+		parse: 'Class named: #CoralTestC1
 					superclass: #Object
 					instanceVariables: #(a b c)
-					category: ''SandBox'''
+					category: ''CoralTestP1'''
 		rule: #class
 		
 	

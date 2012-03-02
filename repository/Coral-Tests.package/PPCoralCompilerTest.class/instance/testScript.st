@@ -2,37 +2,33 @@ tests
 testScript
 	"self debug: #testScript"
 	
-	self shouldnt: [PPCoralParser parse: '[
-	Object subclass: #SaBox
-		instanceVariableNames: ''bob''
-		classVariableNames: ''''
-		poolDictionaries: ''''
-		category: ''SandBox''
-	]
+	self parse: '[
+		Object subclass: #CoralTestC1
+			instanceVariableNames: ''bob''
+			classVariableNames: ''''
+			poolDictionaries: ''''
+			category: ''CoralTestP1''
+		]
 
-	SaBox >> initialize
-	[
-		<category: ''initialize release''>
-		<authorInitials: ''him''>
-		bob := ''Script test working''.
-	]
+		CoralTestC1 >> initialize [
+			<category: ''initialize release''>
+			<authorInitials: ''him''>
+			bob := ''Script test working''.
+		]
 
-	SaBox >> printOn: aStream
-	[
-		"<category: ''printing''>
-		<authorInitials: ''him''>"
-		aStream nextPutAll: bob
-	]
+		CoralTestC1 >> printOn: aStream [
+			"<category: ''printing''>
+			<authorInitials: ''him''>"
+			aStream nextPutAll: bob
+		]
 
-	SaBox class >> dummy
-	[
-		<authorInitials: ''him''>
-		^3
-	]
+		CoralTestC1 class >> dummy [
+			<authorInitials: ''him''>
+			^3
+		]
 
-	[
-	SaBox new printString.
-	]'] raise: Error.
+		[ CoralTestC1 new printString 	]'.
 
-	self assert: (Smalltalk at: #SaBox ifAbsent:[nil]) notNil.
-	self assert: (Smalltalk at: #SaBox ifAbsent:[nil]) dummy = 3
+	self shouldnt: (Smalltalk at: #CoralTestC1) raise: KeyNotFound.
+	createdClasses add: (Smalltalk at: #CoralTestC1).
+	self assert: (Smalltalk at: #CoralTestC1) dummy = 3

@@ -2,5 +2,5 @@ tests
 testAnotherBlock
 	"self debug: #testAnotherBlock"
 	
-	self assert: (PPCoralParser parse: '[Beeper beep] ') = {Beeper}						
+	self assert: '[Beeper beep]' is: {Beeper}						
 	

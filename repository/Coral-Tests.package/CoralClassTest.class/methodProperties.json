@@ -2,11 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "StephaneDucasse 12/8/2009 17:54",
-		"testClassDefWithOneIV" : "DamienPollet 12/15/2011 14:03",
-		"testClassDefWithOneSharedIV" : "StephaneDucasse 9/5/2009 19:55",
-		"testClassDefWithSeveralIV" : "StephaneDucasse 9/5/2009 19:50",
-		"testClassDefWithSeveralIVWithSeparateDef" : "StephaneDucasse 9/5/2009 19:50",
+		"c1Name" : "DamienPollet 3/2/2012 17:10",
+		"p1Name" : "DamienPollet 3/2/2012 17:10",
+		"setUp" : "DamienPollet 3/2/2012 17:07",
+		"tearDown" : "DamienPollet 3/2/2012 17:07",
+		"testClassDefWithOneIV" : "DamienPollet 3/2/2012 17:19",
+		"testClassDefWithOneSharedIV" : "DamienPollet 3/2/2012 17:18",
+		"testClassDefWithSeveralIV" : "DamienPollet 3/2/2012 17:18",
+		"testClassDefWithSeveralIVWithSeparateDef" : "DamienPollet 3/2/2012 17:18",
 		"testExtractAllKinds" : "AdrienBarreau 10/13/2010 13:20",
 		"testExtractEmpty" : "AdrienBarreau 10/13/2010 13:09",
 		"testExtractNil" : "AdrienBarreau 10/13/2010 13:08",
@@ -14,5 +17,5 @@
 		"testExtractOneArgWithMinus" : "AdrienBarreau 10/13/2010 13:20",
 		"testExtractOneArgWithMinusThenArgsWithout" : "AdrienBarreau 10/13/2010 13:25",
 		"testExtractTwoArgsWithAndWithoutMinus" : "AdrienBarreau 10/13/2010 15:26",
-		"testSimpleClassDef" : "StephaneDucasse 9/5/2009 19:42",
-		"testSimpleClassDefWithPackage" : "DamienPollet 12/15/2011 15:38" } }
+		"testSimpleClassDef" : "DamienPollet 3/2/2012 17:17",
+		"testSimpleClassDefWithPackage" : "DamienPollet 3/2/2012 18:03" } }
