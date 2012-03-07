@@ -15,7 +15,7 @@ version02: spec
 - Print errors to stderr
 Test cleanup'.
 		spec author: 'DamienPollet'.
-		spec timestamp: '3/2/2012 19:18'.
+		spec timestamp: '3/7/2012 15:43'.
 		spec 
 			project: 'OSProcess' with: '4.4.6';
 			project: 'PetitParser' with: '1.4';
@@ -24,5 +24,5 @@ Test cleanup'.
 			package: 'Coral-Core' with: 'Coral-Core-DamienPollet.13';
 			package: 'Coral-Utilities' with: 'Coral-Utilities-LucFabresse.7';
 			package: 'Coral-Commandline' with: 'Coral-Commandline-DamienPollet.7';
-			package: 'Coral-Tests' with: 'Coral-Tests-DamienPollet.6';
+			package: 'Coral-Tests' with: 'Coral-Tests-DamienPollet.7';
 			package: 'Coral-Examples-Esug2011' with: 'Coral-Examples-Esug2011-DamienPollet.13'. ].
