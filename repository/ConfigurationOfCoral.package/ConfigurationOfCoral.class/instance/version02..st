@@ -13,7 +13,7 @@ version02: spec
 - Fix class declaration syntax & tests touching system classes
 - Fix getting parameters from CommandLine
 - Print errors to stderr
-Test cleanup'.
+- Test cleanup'.
 		spec author: 'DamienPollet'.
 		spec timestamp: '3/7/2012 15:43'.
 		spec 
