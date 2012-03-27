@@ -13,16 +13,17 @@ version02: spec
 - Fix class declaration syntax & tests touching system classes
 - Fix getting parameters from CommandLine
 - Print errors to stderr
-- Test cleanup'.
+- Test cleanup
+Class/trait declarations (WIP)'.
 		spec author: 'DamienPollet'.
-		spec timestamp: '3/7/2012 15:43'.
+		spec timestamp: '3/27/2012 18:02'.
 		spec 
 			project: 'OSProcess' with: '4.4.6';
 			project: 'PetitParser' with: '1.4';
 			project: 'Readline' with: '0.1'.
 		spec 
-			package: 'Coral-Core' with: 'Coral-Core-DamienPollet.13';
+			package: 'Coral-Core' with: 'Coral-Core-DamienPollet.14';
 			package: 'Coral-Utilities' with: 'Coral-Utilities-LucFabresse.7';
 			package: 'Coral-Commandline' with: 'Coral-Commandline-DamienPollet.7';
-			package: 'Coral-Tests' with: 'Coral-Tests-DamienPollet.7';
+			package: 'Coral-Tests' with: 'Coral-Tests-DamienPollet.8';
 			package: 'Coral-Examples-Esug2011' with: 'Coral-Examples-Esug2011-DamienPollet.13'. ].
