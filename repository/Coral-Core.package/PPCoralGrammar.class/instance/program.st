@@ -1,3 +1,3 @@
 productions
 program
-	^ shebang optional , (block / method) star
+	^ shebang optional , (block / declaration / method) star

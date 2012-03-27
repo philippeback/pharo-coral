@@ -13,7 +13,8 @@
 		"methodBody",
 		"shebang",
 		"smalltalk",
-		"startExpression" ],
+		"startExpression",
+		"declaration" ],
 	"name" : "PPCoralGrammar",
 	"pools" : [
 		 ],
