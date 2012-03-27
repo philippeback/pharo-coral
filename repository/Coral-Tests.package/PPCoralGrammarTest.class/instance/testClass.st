@@ -6,6 +6,6 @@ testClass
 					superclass: #Object
 					instanceVariables: #(a b c)
 					category: ''CoralTestP1'''
-		rule: #class
+		rule: #declaration
 		
 	
