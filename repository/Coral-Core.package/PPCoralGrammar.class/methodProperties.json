@@ -1,11 +1,12 @@
 {
 	"class" : {
+		"declarationPragmas" : "DamienPollet 3/28/2012 15:31",
 		"ignoredNames" : "lr 12/7/2009 13:53",
 		"parseExpression:" : "DamienPollet 8/12/2011 19:08",
 		"parseExpression:onError:" : "DamienPollet 8/12/2011 19:08" },
 	"instance" : {
 		"block" : "lr 11/28/2009 18:25",
-		"declaration" : "DamienPollet 3/27/2012 17:50",
+		"declaration" : "DamienPollet 3/28/2012 19:36",
 		"method" : "sd 11/8/2010 10:07",
 		"methodBody" : "DamienPollet 8/12/2011 18:25",
 		"methodHeader" : "DamienPollet 8/12/2011 18:25",
@@ -15,4 +16,5 @@
 		"shebang" : "DamienPollet 8/12/2011 18:24",
 		"smalltalk" : "lr 11/28/2009 18:48",
 		"start" : "lr 11/28/2009 18:16",
-		"startExpression" : "DamienPollet 8/12/2011 18:26" } }
+		"startExpression" : "DamienPollet 8/12/2011 18:26",
+		"validateDeclaration:" : "DamienPollet 3/28/2012 19:24" } }

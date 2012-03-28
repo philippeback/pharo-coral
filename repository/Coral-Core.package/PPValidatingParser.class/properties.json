@@ -1,0 +1,14 @@
+{
+	"category" : "Coral-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PPValidatingParser",
+	"pools" : [
+		 ],
+	"super" : "PPActionParser",
+	"type" : "normal" }
