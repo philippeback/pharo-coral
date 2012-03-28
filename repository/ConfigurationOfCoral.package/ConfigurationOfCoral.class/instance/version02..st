@@ -14,16 +14,17 @@ version02: spec
 - Fix getting parameters from CommandLine
 - Print errors to stderr
 - Test cleanup
-Class/trait declarations (WIP)'.
+Class/trait declarations (WIP)
+Validating declarations messages'.
 		spec author: 'DamienPollet'.
-		spec timestamp: '3/27/2012 18:13'.
+		spec timestamp: '3/28/2012 19:38'.
 		spec 
 			project: 'OSProcess' with: '4.4.6';
 			project: 'PetitParser' with: '1.4';
 			project: 'Readline' with: '0.1'.
 		spec 
-			package: 'Coral-Core' with: 'Coral-Core-DamienPollet.15';
+			package: 'Coral-Core' with: 'Coral-Core-DamienPollet.16';
 			package: 'Coral-Utilities' with: 'Coral-Utilities-LucFabresse.7';
 			package: 'Coral-Commandline' with: 'Coral-Commandline-DamienPollet.7';
-			package: 'Coral-Tests' with: 'Coral-Tests-DamienPollet.8';
+			package: 'Coral-Tests' with: 'Coral-Tests-DamienPollet.9';
 			package: 'Coral-Examples-Esug2011' with: 'Coral-Examples-Esug2011-DamienPollet.13'. ].
