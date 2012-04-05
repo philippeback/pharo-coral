@@ -8,7 +8,7 @@ If this folder exists, it is deleted first. In CoralGenerated, a few folders and
 [
 	| fs folder |
 
-	fs := FSDiskFilesystem currentClass createDefault.
+	fs := FileSystem disk.
 	folder := CoralScriptWriting getAllArgumentsWithoutMinusButScriptName at:1 ifAbsent: [ String empty ].
 	
 	folder isEmpty 

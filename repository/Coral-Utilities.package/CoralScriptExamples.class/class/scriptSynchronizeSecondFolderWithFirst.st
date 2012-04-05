@@ -34,7 +34,7 @@ TempCoralClass class>>synchronizeFolder1: folder1 folder2: folder2
 	args := CoralScriptWriting getAllArguments.
 	(args size = 3) ifFalse: [ Console<<(''Use: '', args first, '' path1 path2''). ^ self ].
 	
-	fs := FSDiskFilesystem currentClass createDefault.
+	fs := FileSystem disk.
 	folder1 := fs referenceTo: (args at:2).
 	folder2 := fs referenceTo: (args at:3).
 	

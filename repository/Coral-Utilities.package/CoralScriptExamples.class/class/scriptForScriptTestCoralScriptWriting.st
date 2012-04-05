@@ -5,7 +5,7 @@ scriptForScriptTestCoralScriptWriting
 	^ '[
 	| fs os |
 	
-	fs := FSDiskFilesystem currentClass createDefault.
+	fs := Filesystem disk.
 	os := ThisOSProcess thisOSProcess.
 	
 	os chDir: (fs referenceTo: ''.'') asAbsolute asString.
