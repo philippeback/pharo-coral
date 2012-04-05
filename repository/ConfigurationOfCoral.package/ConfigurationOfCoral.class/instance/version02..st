@@ -16,16 +16,17 @@ version02: spec
 - Test cleanup
 Class/trait declarations (WIP)
 Validating declarations messages
-Class declaration'.
+Class declaration
+Apply FS -> FileSystem renaming'.
 		spec author: 'DamienPollet'.
-		spec timestamp: '4/5/2012 16:27'.
+		spec timestamp: '4/5/2012 17:22'.
 		spec 
 			project: 'OSProcess' with: '4.4.6';
 			project: 'PetitParser' with: '1.4';
 			project: 'Readline' with: '0.1'.
 		spec 
 			package: 'Coral-Core' with: 'Coral-Core-DamienPollet.17';
-			package: 'Coral-Utilities' with: 'Coral-Utilities-LucFabresse.7';
+			package: 'Coral-Utilities' with: 'Coral-Utilities-DamienPollet.8';
 			package: 'Coral-Commandline' with: 'Coral-Commandline-DamienPollet.7';
 			package: 'Coral-Tests' with: 'Coral-Tests-DamienPollet.9';
 			package: 'Coral-Examples-Esug2011' with: 'Coral-Examples-Esug2011-DamienPollet.13'. ].
