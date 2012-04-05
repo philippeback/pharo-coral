@@ -17,7 +17,7 @@ version02: spec
 - Class/trait declarations (WIP)
 - Validating declarations messages
 - Class declaration
-- Apply FS -> FileSystem renaming'.
+- Apply FSFilesystem -> FileSystem renaming'.
 		spec author: 'DamienPollet'.
 		spec timestamp: '4/5/2012 17:22'.
 		spec 
