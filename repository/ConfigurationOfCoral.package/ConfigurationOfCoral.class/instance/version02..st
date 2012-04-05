@@ -14,10 +14,10 @@ version02: spec
 - Fix getting parameters from CommandLine
 - Print errors to stderr
 - Test cleanup
-Class/trait declarations (WIP)
-Validating declarations messages
-Class declaration
-Apply FS -> FileSystem renaming'.
+- Class/trait declarations (WIP)
+- Validating declarations messages
+- Class declaration
+- Apply FS -> FileSystem renaming'.
 		spec author: 'DamienPollet'.
 		spec timestamp: '4/5/2012 17:22'.
 		spec 
