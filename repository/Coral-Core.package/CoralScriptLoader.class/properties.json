@@ -10,5 +10,5 @@
 	"name" : "CoralScriptLoader",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "CommandLineHandler",
 	"type" : "normal" }
