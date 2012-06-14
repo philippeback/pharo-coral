@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"bootstrapPackage:from:" : "MiguelCoba 1/12/2010 23:39",
+		"ensureMetacello" : "MiguelCoba 1/12/2010 23:39",
+		"isMetacelloConfig" : "MiguelCoba 1/12/2010 23:39",
+		"lastMetacelloVersionLoad" : "MiguelCoba 1/12/2010 23:39",
+		"load" : "dtl 7/1/2010 21:18",
+		"metacelloVersion:loads:" : "MiguelCoba 1/12/2010 23:39",
+		"project" : "MiguelCoba 1/12/2010 23:39",
+		"saveConfiguration:" : "DamienPollet 10/26/2011 18:35",
+		"updateToLatestPackageVersions:" : "DamienPollet 10/26/2011 18:27" },
+	"instance" : {
+		"baseline4312:" : "MiguelCoba 2/19/2011 01:33",
+		"baseline43:" : "MiguelCoba 1/13/2010 13:10",
+		"baseline44:" : "MiguelCoba 2/19/2011 01:53",
+		"baseline45:" : "DamienPollet 10/26/2011 22:40",
+		"development:" : "DamienPollet 10/25/2011 16:41",
+		"project" : "MiguelCoba 1/12/2010 23:39",
+		"stable:" : "mt 9/28/2011 14:16:01.003",
+		"version4311:" : "MiguelCoba 1/14/2010 00:31",
+		"version4312:" : "MiguelCoba 2/19/2011 01:32",
+		"version440:" : "mt 6/9/2011 13:25:13.015",
+		"version442:" : "mt 6/9/2011 13:25:09.479",
+		"version445:" : "mt 9/28/2011 14:14:43.783",
+		"version446:" : "DamienPollet 6/14/2012 18:25" } }

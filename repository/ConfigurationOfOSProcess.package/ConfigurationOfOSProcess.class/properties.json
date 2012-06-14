@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfOSProcess",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfOSProcess",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
