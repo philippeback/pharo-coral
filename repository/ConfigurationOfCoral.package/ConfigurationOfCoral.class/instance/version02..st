@@ -17,15 +17,16 @@ version02: spec
 - Class/trait declarations (WIP)
 - Validating declarations messages
 - Class declaration
-- Apply FSFilesystem -> FileSystem renaming'.
+- Apply FSFilesystem -> FileSystem renaming
+Update deps'.
 		spec author: 'DamienPollet'.
-		spec timestamp: '4/5/2012 17:22'.
+		spec timestamp: '6/14/2012 18:34'.
 		spec 
 			project: 'OSProcess' with: '4.4.6';
 			project: 'PetitParser' with: '1.4';
 			project: 'Readline' with: '0.1'.
 		spec 
-			package: 'Coral-Core' with: 'Coral-Core-DamienPollet.17';
+			package: 'Coral-Core' with: 'Coral-Core-CamilloBruni.18';
 			package: 'Coral-Utilities' with: 'Coral-Utilities-DamienPollet.8';
 			package: 'Coral-Commandline' with: 'Coral-Commandline-DamienPollet.7';
 			package: 'Coral-Tests' with: 'Coral-Tests-DamienPollet.9';
