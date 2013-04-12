@@ -1,6 +1,4 @@
 output
 printError: anObject
 
-	(OSProcess thisOSProcess stdErr
-			converter: (TextConverter newForEncoding: 'UTF-8'))
-		nextPutAll: anObject asString
+	FileStream stderr nextPutAll: anObject asString

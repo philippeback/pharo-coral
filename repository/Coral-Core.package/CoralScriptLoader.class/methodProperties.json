@@ -1,7 +1,10 @@
 {
 	"class" : {
-		"commandName" : "CamilloBruni 4/28/2012 22:52" },
+		"commandName" : "CamilloBruni 4/28/2012 22:52",
+		"description" : "DamienPollet 4/12/2013 16:25",
+		"isResponsibleFor:" : "DamienPollet 4/12/2013 16:29" },
 	"instance" : {
-		"activate" : "CamilloBruni 4/28/2012 22:58",
+		"activate" : "DamienPollet 4/12/2013 16:52",
+		"evaluateStream:" : "DamienPollet 4/12/2013 17:03",
 		"runConsole" : "CamilloBruni 4/28/2012 22:51",
-		"runScript" : "CamilloBruni 4/28/2012 22:51" } }
+		"runScript" : "DamienPollet 4/12/2013 17:00" } }

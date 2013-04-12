@@ -4,6 +4,6 @@ activate
 	Console initHistory.
 	Console prompt: '> '.
 	
-	({''. self class commandName} includes: SmalltalkImage current documentPath) 
+	(commandLine hasFileWithExtension: '.coral') 
 		ifTrue: [ self runConsole ]
 		ifFalse: [ self runScript ]
