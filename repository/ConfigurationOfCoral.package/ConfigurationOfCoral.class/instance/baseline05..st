@@ -18,7 +18,7 @@ baseline05: spec
 					className: 'ConfigurationOfPetitParser';
 					versionString: #development;
 					loads: #('Core' 'Tests' 'PetitSmalltalk');
-					repository: 'http://smalltalkhub.com/mc/renggli/petit/main' ];
+					repository: 'http://smalltalkhub.com/mc/dh83/coral/main' ];
 			project: 'Readline' with: [
 				spec
 					className: 'ConfigurationOfReadline';
