@@ -4,26 +4,26 @@ baseline05: spec
 
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
-		spec description: 'Use Coral-specific configuration of OSProcess'.
-		spec repository: 'http://ss3.gemstone.com/ss/coral'.
+		spec description: 'Move deps to SmalltalkHub'.
+		spec repository: 'http://smalltalkhub.com/mc/dh83/coral/main'.
 		
 		spec
 			project: 'OSProcess' with: [
 				spec
 					className: 'ConfigurationOfOSProcess';
 					versionString: #development;
-					repository: 'http://ss3.gemstone.com/ss/coral' ];
+					repository: 'http://smalltalkhub.com/mc/dh83/coral/main' ];
 			project: 'PetitParser' with: [
 				spec
 					className: 'ConfigurationOfPetitParser';
 					versionString: #development;
 					loads: #('Core' 'Tests' 'PetitSmalltalk');
-					repository: 'http://ss3.gemstone.com/ss/coral' ];
+					repository: 'http://smalltalkhub.com/mc/dh83/coral/main' ];
 			project: 'Readline' with: [
 				spec
 					className: 'ConfigurationOfReadline';
 					versionString: #development;
-					repository: 'http://ss3.gemstone.com/ss/readline' ].
+					repository: 'http://smalltalkhub.com/mc/dh83/readline/main' ].
 
 		spec
 			package: 'Coral-Core'					with: [ spec requires: #('PetitParser' 'OSProcess') ];

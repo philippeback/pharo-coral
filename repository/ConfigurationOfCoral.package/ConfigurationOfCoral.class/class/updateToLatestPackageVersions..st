@@ -2,7 +2,7 @@ development support
 updateToLatestPackageVersions: descriptionString
 	"Update the #development version to match currently loaded mcz files."
 
-	"self updateToLatestPackageVersions: '- fixed a bug'"
+	"self updateToLatestPackageVersions: '- pharo 3.0 & smalltalkhub'"
 
 	<apiDocumentation>
 	self ensureMetacello.
