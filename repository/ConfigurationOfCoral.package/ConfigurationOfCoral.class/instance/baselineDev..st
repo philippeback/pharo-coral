@@ -10,7 +10,7 @@ baselineDev: spec
 		self 
 			osProcess: spec;
 			petitParser: spec;
-			readlline: spec.
+			readline: spec.
 
 		spec
 			package: 'Coral-Core'					with: [ spec requires: #('PetitParser' 'OSProcess') ];
