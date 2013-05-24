@@ -7,7 +7,6 @@ baselineDev: spec
 		spec description: 'Move deps to SmalltalkHub'.
 		spec repository: 'http://smalltalkhub.com/mc/dh83/coral/main'.
 		
-		spec
 		self 
 			osProcess: spec;
 			petitParser: spec;
