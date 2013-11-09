@@ -3,7 +3,7 @@ petitParser: spec
 	
 	spec project: 'PetitParser' with: [
 		spec
-			repository: self metacelloRepositoryURL;
+			repository: 'http://smalltalkhub.com/mc/Moose/PetitParser/main/';
 			className: 'ConfigurationOfPetitParser';
 			versionString: #development;
 			loads: #('Core' 'Tests' 'PetitSmalltalk') ].
