@@ -9,7 +9,7 @@ versionDev: spec
 		spec timestamp: '4/12/2013 17:37'.
 		spec 
 			project: 'OSProcess' with: '4.4.6';
-			project: 'PetitParser' with: '1.4';
+			project: 'PetitParser' with: #stable;
 			project: 'Readline' with: '0.1'.
 		spec 
 			package: 'Coral-Core' with: 'Coral-Core-DamienPollet.19';
