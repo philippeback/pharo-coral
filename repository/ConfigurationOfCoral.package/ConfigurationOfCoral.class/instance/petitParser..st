@@ -5,5 +5,5 @@ petitParser: spec
 		spec
 			repository: 'http://smalltalkhub.com/mc/Moose/PetitParser/main/';
 			className: 'ConfigurationOfPetitParser';
-			versionString: #development;
-			loads: #('PetitSmalltalk') ].
+			versionString: #stable;
+			loads: #('Core' 'Tests' 'PetitSmalltalk') ].
